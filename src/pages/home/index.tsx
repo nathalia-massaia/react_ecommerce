@@ -10,7 +10,7 @@ const Home = () => {
       <CategoryList />
 
       <ProductList
-        isTitleFeatured={'Featured Products'}
+        title={'Featured Products'}
         items={productMock.filter((product) => product.isFeatured).slice(0, 4)}
       />
     </Base>

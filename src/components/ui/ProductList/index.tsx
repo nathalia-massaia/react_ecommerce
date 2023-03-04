@@ -4,13 +4,13 @@ import * as S from './styles';
 
 export type ProductListProps = {
   items: CardProductProps[];
-  isTitleFeatured?: string;
+  title?: string;
 };
 
-const ProductList = ({ items, isTitleFeatured }: ProductListProps) => {
+const ProductList = ({ items, title }: ProductListProps) => {
   return (
     <S.Wrapper>
-      <h2>{isTitleFeatured}</h2>
+      {!!title && <h2>{title}</h2>}
       <S.ListWrapper>
         {items.map((product) => (
           <Link
