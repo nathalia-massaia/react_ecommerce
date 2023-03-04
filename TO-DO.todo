@@ -1,0 +1,31 @@
+Bug Fixes:
+  Home:
+    ☐ Renomear props isTitleFeatured para title.
+    ☐ Corrigir Flex-Column na Lista da Home.
+
+  Header:
+    ☐ Mover Copyright para o footer.
+
+  Footer:
+    ☐ Isolar textos do accordion em um arquivo JSON separado, pois irá vir da API.
+    ☐ Criar Styled-Component para o <p>FOLLOW US ON SOCIAL MEDIA</p>.
+
+  CardProduct:
+    ☐ Mover currencyFormatter para um arquivo separado em src/utils/currencyFormatter.ts.
+    ☐ Criar tipo específico para Categories para evitar ficar validando a prop description.
+    ☐ Criar Styled-Component para <img src={image} alt="product img" />.
+    ☐ Criar Styled-Component para <span>{currencyFormatter(description.price)}</span>.
+
+  CategoryList:
+    ☐ Isolar array de categories em um arquivo JSON separado, pois irá vir da API.
+
+  Logo:
+    ☐ Criar Styled-Component para <img src="/img/Safoda.png" width={width} height={height} alt="logo" />.
+
+  SearchBar:
+    ☐ Remover o componente, pois não está e não será utilizado.
+
+Tasks:
+  Criar componentes genéricos:
+    ☐ Textfield
+    ☐ Button
