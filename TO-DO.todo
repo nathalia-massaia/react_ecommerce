@@ -3,6 +3,9 @@ Bug Fixes:
     ☐ Renomear props isTitleFeatured para title.
     ☐ Corrigir Flex-Column na Lista da Home.
 
+  CategoryPage:
+    ☐ Corrigir charset para renderizar os caracteres especiais.
+
   Header:
     ☐ Mover Copyright para o footer.
 

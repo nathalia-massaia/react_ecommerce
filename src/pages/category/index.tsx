@@ -9,9 +9,10 @@ import { CardProductProps } from 'components/ui/CardProduct';
 
 const Category = () => {
   const location = useLocation();
-  const titlePath =
+  const titlePath = decodeURIComponent(
     location.pathname.split('/')[2].toLowerCase().charAt(0).toUpperCase() +
-    location.pathname.split('/')[2].toLowerCase().slice(1);
+      location.pathname.split('/')[2].toLowerCase().slice(1)
+  );
 
   const [products, setProducts] = useState<CardProductProps[]>(productMock); //lista de produtos
   const [sortValue, setSortValue] = useState('priceAsc'); //valor do select
