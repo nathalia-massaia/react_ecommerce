@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
   height: 100%;
@@ -7,15 +8,27 @@ export const Wrapper = styled.div`
   justify-content: space-between;
 `;
 
-export const HeaderWrapper = styled.div``;
-
-export const ContentWrapper = styled.div`
-  height: fit-content;
-  padding-bottom: 1rem;
-  background-color: #181818;
+export const HeaderWrapper = styled.div`
+  ${({ theme }) => css`
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: ${theme.layers.base};
+  `}
 `;
 
-export const FooterWrapper = styled.div`
-  width: 100%;
-  text-align: center;
+export const ContentWrapper = styled.div`
+  ${({ theme }) => css`
+    width: 100%;
+    height: fit-content;
+    margin: 15rem auto 0;
+    background-color: ${theme.colors.darkGray};
+    border-top: 0.1rem solid ${theme.colors.gray};
+    padding: ${theme.spacings.large} 0;
+
+    ${media.greaterThan('medium')`
+      max-width: 80rem;
+    `}
+  `}
 `;

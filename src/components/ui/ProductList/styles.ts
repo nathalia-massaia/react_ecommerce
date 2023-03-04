@@ -2,12 +2,9 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   height: 100%;
-  width: 65%;
-  margin: 2rem auto;
-  padding: 1rem 0;
+  width: 100%;
   color: white;
   display: flex;
-
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;

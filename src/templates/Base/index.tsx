@@ -11,10 +11,12 @@ const Base = ({ children }: BaseProps) => (
     <S.HeaderWrapper>
       <Header />
     </S.HeaderWrapper>
-    <S.ContentWrapper>{children}</S.ContentWrapper>
-    <S.FooterWrapper>
-      <Footer />
-    </S.FooterWrapper>
+
+    <S.ContentWrapper>
+      {children}
+    </S.ContentWrapper>
+
+    <Footer />
   </S.Wrapper>
 );
 

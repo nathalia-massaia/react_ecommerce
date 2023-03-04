@@ -14,7 +14,6 @@ export const Wrapper = styled.div`
 export const Title = styled.div`
   width: 800px;
   padding: 1rem 0;
-  border-top: 0.1rem solid #b5b5b5;
 
   a {
     text-decoration: none;

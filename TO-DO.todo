@@ -4,7 +4,7 @@ Bug Fixes:
     ☐ Corrigir Flex-Column na Lista da Home.
 
   CategoryPage:
-    ☐ Corrigir charset para renderizar os caracteres especiais.
+    ✔ Corrigir charset para renderizar os caracteres especiais. @done(23-03-04 22:17)
 
   Header:
     ☐ Mover Copyright para o footer.
