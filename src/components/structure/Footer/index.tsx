@@ -4,6 +4,7 @@ import { Facebook as FacebookIcon } from '@styled-icons/boxicons-logos/Facebook'
 import { Instagram as InstagramIcon } from '@styled-icons/boxicons-logos/Instagram';
 import { Youtube as YoutubeIcon } from '@styled-icons/boxicons-logos/Youtube';
 import { Whatsapp as WhatsappIcon } from '@styled-icons/boxicons-logos/Whatsapp';
+import info from 'API/info.json';
 import * as S from './styles';
 
 const Footer = () => (
@@ -28,6 +29,10 @@ const Footer = () => (
       <YoutubeIcon size={40} />
       <WhatsappIcon size={40} />
     </S.SocialMediaIcon>
+
+    <S.CopyrightWrapper>
+      <p>© 2023 All rights reserved</p>
+    </S.CopyrightWrapper>
   </S.Wrapper>
 );
 

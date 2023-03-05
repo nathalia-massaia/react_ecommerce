@@ -1,17 +1,17 @@
 Bug Fixes:
   Home:
-    ☐ Renomear props isTitleFeatured para title.
-    ☐ Corrigir Flex-Column na Lista da Home.
+    ✔ Renomear props isTitleFeatured para title. @done(23-03-04 21:31)
+    ✔ Corrigir Flex-Column na Lista da Home. @done(23-03-04 21:31)
 
   CategoryPage:
     ✔ Corrigir charset para renderizar os caracteres especiais. @done(23-03-04 22:17)
 
   Header:
-    ☐ Mover Copyright para o footer.
+    ✔ Mover Copyright para o footer. @done(23-03-04 23:09)
 
   Footer:
-    ☐ Isolar textos do accordion em um arquivo JSON separado, pois irá vir da API.
-    ☐ Criar Styled-Component para o <p>FOLLOW US ON SOCIAL MEDIA</p>.
+    ✔ Isolar textos do accordion em um arquivo JSON separado, pois irá vir da API. @done(23-03-04 22:48)
+    ✔ Criar Styled-Component para o <p>FOLLOW US ON SOCIAL MEDIA</p>. @done(23-03-04 23:09)
 
   CardProduct:
     ☐ Mover currencyFormatter para um arquivo separado em src/utils/currencyFormatter.ts.

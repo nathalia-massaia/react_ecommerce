@@ -8,11 +8,12 @@ export const Wrapper = styled.div`
   gap: 2rem;
   padding: 2rem;
   width: 100%;
+  font-size: 18px;
+  color: #b5b5b5;
+`;
 
-  p {
-    font-size: 16px;
-    color: #b5b5b5;
-  }
+export const CopyrightWrapper = styled.div`
+  font-size: 14px;
 `;
 
 export const InputEmail = styled.input`
