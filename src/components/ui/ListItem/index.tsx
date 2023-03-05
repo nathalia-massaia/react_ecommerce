@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
 import { CategoryProps } from 'models/category';
 import { ProductProps } from 'models/product';
-import * as S from './styles';
 import { currencyFormatter } from 'utils/currencyFormatter';
+import useCart from 'hooks/useCart';
+import * as S from './styles';
 
 export type ListItemProps = {
   item: ProductProps | CategoryProps;
@@ -9,16 +11,17 @@ export type ListItemProps = {
 
 const ListItem = ({ item }: ListItemProps) => {
   const isProduct = 'brand' in item;
+  const { addItem } = useCart();
 
   return (
     <S.Wrapper>
-      <S.ImageWrapper>
-        <img src={item.image} alt="product img" />
-      </S.ImageWrapper>
-      {!isProduct && <S.Title>{item.title}</S.Title>}
+      <Link to={item.slug}>
+        <S.ImageWrapper>
+          <img src={item.image} alt="product img" />
+        </S.ImageWrapper>
+        {!isProduct && <S.Title>{item.title}</S.Title>}
 
-      {isProduct && (
-        <>
+        {isProduct && (
           <S.DescriptionWrapper>
             <S.DescriptionContent>
               {<p>{item.brand}</p>}
@@ -30,11 +33,13 @@ const ListItem = ({ item }: ListItemProps) => {
               <span>{currencyFormatter(item.price)}</span>
             </S.PriceContent>
           </S.DescriptionWrapper>
+        )}
+      </Link>
 
-          <S.AddToCart>
-            <button>Add to cart</button>
-          </S.AddToCart>
-        </>
+      {isProduct && (
+        <S.AddToCart>
+          <button onClick={() => addItem(item)}>Add to cart</button>
+        </S.AddToCart>
       )}
     </S.Wrapper>
   );

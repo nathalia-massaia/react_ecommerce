@@ -25,10 +25,9 @@ export default {
     primary: '#ff9800',
     secondary: '#f7d9ab',
     white: '#FFF',
-    black: '#000',
-    darkGray: '#181818',
+    darkgray: '#707070',
     gray: '#b5b5b5',
-    lightGray: '#EAEAEA',
+    lightgray: '#EAEAEA',
     red: '#FF6347'
   },
   spacings: {

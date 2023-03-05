@@ -16,9 +16,7 @@ const List = ({ title, items }: ListProps) => {
       <h2>{title}</h2>
       <S.ListWrapper>
         {items.map((item) => (
-          <Link key={item.id} to={item.slug}>
-            <ListItem item={item} />
-          </Link>
+          <ListItem item={item} key={item.id} />
         ))}
       </S.ListWrapper>
     </S.Wrapper>

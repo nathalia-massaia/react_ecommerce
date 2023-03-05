@@ -1,27 +1,38 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Cart as CartIcon } from '@styled-icons/icomoon/Cart';
 import CartList from 'components/ui/CartList';
-import * as S from './styles';
 import useCart from 'hooks/useCart';
+import * as S from './styles';
 
 const CartButton = () => {
-  const { items, addItem, removeItem, clearCart } = useCart();
-  const [cartCount, setCartCount] = useState(1);
+  const { cartItems, cartIsVisible, changeCartVisibility } = useCart();
+  const cartListRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    const count = items.reduce((acc, item) => acc + item.quantity, 0);
-    setCartCount(count);
-  }, [items]);
+    const handleOutsideClick = (event: any) => {
+      if (cartListRef.current && !cartListRef.current.contains(event.target)) {
+        changeCartVisibility(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleOutsideClick);
+
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick);
+    };
+  }, [cartListRef, changeCartVisibility]);
 
   return (
     <S.Wrapper>
       <S.ButtonWrapper>
-        <S.IconWrapper>
-          <CartIcon size={30} color="#b5b5b5" />
-          <S.CartCount isVisible={!!cartCount}>{cartCount}</S.CartCount>
+        <S.IconWrapper onMouseOver={() => changeCartVisibility(true)}>
+          <CartIcon size={30} />
+          <S.CartCount isVisible={!!cartItems.length}>
+            {cartItems.length > 99 ? '99+' : cartItems.length}
+          </S.CartCount>
         </S.IconWrapper>
 
-        <S.CartListWrapper>
+        <S.CartListWrapper visible={cartIsVisible} ref={cartListRef}>
           <CartList />
         </S.CartListWrapper>
       </S.ButtonWrapper>

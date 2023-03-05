@@ -23,7 +23,7 @@ export const ContentWrapper = styled.div`
     width: 100%;
     height: fit-content;
     margin: 20rem auto 0;
-    background-color: ${theme.colors.darkGray};
+    background-color: ${theme.colors.black};
     border-top: 0.1rem solid ${theme.colors.gray};
     padding: ${theme.spacings.large} 0;
     display: flex;

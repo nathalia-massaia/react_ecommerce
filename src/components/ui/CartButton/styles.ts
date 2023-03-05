@@ -22,18 +22,32 @@ export const IconWrapper = styled.div`
     display: flex;
     align-items: baseline;
     gap: ${theme.spacings.xxsmall};
+
+    > svg {
+      color: ${theme.colors.gray};
+    }
   `}
 `;
 
 export const CartCount = styled.p<{ isVisible: boolean }>`
   ${({ theme, isVisible }) => css`
-    color: ${theme.colors.gray};
-    transition: ${theme.transition.fast};
+    color: ${theme.colors.white};
     opacity: ${isVisible ? 1 : 0};
+    background-color: ${theme.colors.primary};
+    border-radius: ${theme.border.radius.full};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
   `}
 `;
 
-export const CartListWrapper = styled.div`
-  position: absolute;
-  right: 0;
+export const CartListWrapper = styled.div<{ visible: boolean }>`
+  ${({ theme, visible }) => css`
+    position: absolute;
+    right: 0;
+    transition: ${theme.transition.fast};
+    opacity: ${visible ? 1 : 0};
+  `}
 `;

@@ -1,43 +1,69 @@
-import { useState } from 'react';
+import { useContext, useMemo } from 'react';
+import { CartContext } from 'context/cart';
+import { CartProps } from 'models/cart';
 import { ProductProps } from 'models/product';
 
-type CartItemProps = ProductProps & { quantity: number };
-
-type CartProps = {
-  items: CartItemProps[];
-  addItem: (product: ProductProps) => void;
-  removeItem: (id: number) => void;
-  clearCart: () => void;
-};
-
 const useCart = (): CartProps => {
-  const [items, setItems] = useState<CartItemProps[]>([]);
+  const { cartItems, setCartItems, cartIsVisible, setCartIsVisible } =
+    useContext(CartContext);
 
   const addItem = (product: ProductProps) => {
-    const existingItem = items.find((item) => item.id === product.id);
+    const existingItem = cartItems.find((item) => item.id === product.id);
 
     if (existingItem) {
-      setItems((prevItems) =>
-        prevItems.map((item) =>
+      setCartItems(
+        cartItems.map((item) =>
           item.id === existingItem.id
             ? { ...item, quantity: item.quantity + 1 }
             : item
         )
       );
     } else {
-      setItems((prevItems) => [...prevItems, { ...product, quantity: 1 }]);
+      setCartItems([...cartItems, { ...product, quantity: 1 }]);
     }
+
+    setCartIsVisible(true);
   };
 
   const removeItem = (id: number) => {
-    setItems((prevItems) => prevItems.filter((item) => item.id !== id));
+    setCartItems(cartItems.filter((item) => item.id !== id));
   };
 
   const clearCart = () => {
-    setItems([]);
+    setCartItems([]);
   };
 
-  return { items, addItem, removeItem, clearCart };
+  const handleItemQuantity = (id: number, action: '+' | '-') => {
+    setCartItems(
+      cartItems.map((item) =>
+        item.id === id
+          ? {
+              ...item,
+              quantity: action === '+' ? ++item.quantity : --item.quantity
+            }
+          : item
+      )
+    );
+  };
+
+  const changeCartVisibility = (isVisible: boolean) => {
+    setCartIsVisible(isVisible);
+  };
+
+  const subtotal = useMemo(() => {
+    return cartItems.reduce((acc, curr) => acc + curr.price * curr.quantity, 0);
+  }, [cartItems]);
+
+  return {
+    cartItems,
+    cartIsVisible,
+    changeCartVisibility,
+    subtotal,
+    addItem,
+    removeItem,
+    clearCart,
+    handleItemQuantity
+  };
 };
 
 export default useCart;
