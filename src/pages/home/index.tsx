@@ -1,7 +1,6 @@
 import List from 'components/ui/List';
 import productMock from 'API/products.json';
 import categoryMock from 'API/categories.json';
-
 import Base from 'templates/Base';
 
 const Home = () => {

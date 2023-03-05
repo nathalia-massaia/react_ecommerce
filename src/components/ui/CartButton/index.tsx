@@ -18,7 +18,7 @@ const CartButton = () => {
       <S.ButtonWrapper>
         <S.IconWrapper>
           <CartIcon size={30} color="#b5b5b5" />
-          <S.CartCount>{cartCount}</S.CartCount>
+          <S.CartCount isVisible={!!cartCount}>{cartCount}</S.CartCount>
         </S.IconWrapper>
 
         <S.CartListWrapper>

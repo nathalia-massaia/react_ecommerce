@@ -1,42 +1,41 @@
+import { CategoryProps } from 'models/category';
+import { ProductProps } from 'models/product';
 import * as S from './styles';
 
-export type ProductDescription = {
-  brand: string;
-  title: string;
-  category: 'Men' | 'Ladies' | 'Headwear & Goods' | 'Hoodies';
-  price: number;
-};
 export type ListItemProps = {
-  id: number;
-  title?: string;
-  description?: ProductDescription;
-  image: string;
-  isFeatured?: boolean;
+  item: ProductProps | CategoryProps;
 };
 
-function currencyFormatter(value: number) {
-  return `${value.toFixed(2).replace('.', ',')}€`;
-}
+const ListItem = ({ item }: ListItemProps) => {
+  const isProduct = 'brand' in item;
 
-const ListItem = ({ title, description, image }: ListItemProps) => (
-  <S.Wrapper hasDescription={!!description}>
-    <S.ImageWrapper>
-      <img src={image} alt="product img" />
-    </S.ImageWrapper>
-    {!!title && <S.Title>{title}</S.Title>}
-    {!!description && (
-      <S.DescriptionWrapper>
-        <S.DescriptionContent>
-          <p>{description.brand}</p>
-          <p>{description.title}</p>
-          <p>{description.category}</p>
-        </S.DescriptionContent>
-        <S.PriceContent>
-          <span>{currencyFormatter(description.price)}</span>
-        </S.PriceContent>
-      </S.DescriptionWrapper>
-    )}
-  </S.Wrapper>
-);
+  return (
+    <S.Wrapper>
+      <S.ImageWrapper>
+        <img src={item.image} alt="product img" />
+      </S.ImageWrapper>
+
+      {isProduct && (
+        <>
+          <S.DescriptionWrapper>
+            <S.DescriptionContent>
+              {<p>{item.brand}</p>}
+              {<p>{item.title}</p>}
+              {<p>{item.category}</p>}
+            </S.DescriptionContent>
+
+            <S.PriceContent>
+              <span>{item.price}</span>
+            </S.PriceContent>
+          </S.DescriptionWrapper>
+
+          <S.AddToCart>
+            <button>Add to cart</button>
+          </S.AddToCart>
+        </>
+      )}
+    </S.Wrapper>
+  );
+};
 
 export default ListItem;

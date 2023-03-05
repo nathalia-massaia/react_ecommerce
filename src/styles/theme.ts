@@ -22,7 +22,8 @@ export default {
     }
   },
   colors: {
-    primary: '#daa520',
+    primary: '#ff9800',
+    secondary: '#f7d9ab',
     white: '#FFF',
     black: '#000',
     darkGray: '#181818',
@@ -44,6 +45,6 @@ export default {
     fast: '0.1s ease-in-out'
   },
   layers: {
-    base: 10,
+    base: 10
   }
 } as const;

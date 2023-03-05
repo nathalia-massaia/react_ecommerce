@@ -1,12 +1,10 @@
 export type ProductProps = {
   id: number;
   slug: string;
-  description: {
-    title: string;
-    brand: string;
-    category: 'Men' | 'Ladies' | 'Headwear & Goods' | 'Hoodies';
-    price: number;
-  };
+  title: string;
+  brand: string;
+  category: string;
+  price: number;
   image: string;
   isFeatured?: boolean;
 };

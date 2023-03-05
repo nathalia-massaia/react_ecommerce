@@ -2,240 +2,200 @@
   {
     "id": 1,
     "slug": "men/running-shoes",
-    "description": {
-      "title": "Running Shoes",
-      "brand": "Nike",
-      "category": "Men",
-      "price": 129.99
-    },
+    "title": "Running Shoes",
+    "brand": "Nike",
+    "category": "Men",
+    "price": 129.99,
     "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/5f6bb927-fd98-48bb-80cf-4ca2f7d9c906/tempo-road-running-shoes-rVsrCV.png",
     "isFeatured": true
   },
   {
     "id": 2,
     "slug": "ladies/yoga-pants",
-    "description": {
-      "title": "Yoga Pants",
-      "brand": "Adidas",
-      "category": "Ladies",
-      "price": 79.99
-    },
+    "title": "Yoga Pants",
+    "brand": "Adidas",
+    "category": "Ladies",
+    "price": 79.99,
     "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/479d7836796740dfa422ac7c012eafb4_9366/Elevate_Yoga_Flow_7-8_Tights_Black_GL0615_HM1.jpg",
     "isFeatured": false
   },
   {
     "id": 3,
     "slug": "headwear-goods/baseball-cap",
-    "description": {
-      "title": "Baseball Cap",
-      "brand": "Puma",
-      "category": "Headwear & Goods",
-      "price": 24.99
-    },
+    "title": "Baseball Cap",
+    "brand": "Puma",
+    "category": "Headwear & Goods",
+    "price": 24.99,
     "image": "https://m.media-amazon.com/images/I/81D2N0-EamL._AC_SL1500_.jpg",
     "isFeatured": false
   },
   {
     "id": 4,
     "slug": "hoodies/zip-up-hoodie",
-    "description": {
-      "title": "Zip-Up Hoodie",
-      "brand": "Reebok",
-      "category": "Hoodies",
-      "price": 59.99
-    },
+    "title": "Zip-Up Hoodie",
+    "brand": "Reebok",
+    "category": "Hoodies",
+    "price": 59.99,
     "image": "https://assets.reebok.com/images/w_600,f_auto,q_auto/292cd736339d4051b8e2af0a00ea240a_9366/Reebok_Identity_Fleece_Full-Zip_Hoodie_Black_HS7374_01_standard.jpg",
     "isFeatured": true
   },
   {
     "id": 5,
     "slug": "men/basketball-shorts",
-    "description": {
-      "title": "Basketball Shorts",
-      "brand": "Nike",
-      "category": "Men",
-      "price": 44.99
-    },
+    "title": "Basketball Shorts",
+    "brand": "Nike",
+    "category": "Men",
+    "price": 44.99,
     "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/deb53701-76a5-4f63-b897-267ba3862ead/dna-mens-8-woven-basketball-shorts-t2VdQv.png",
     "isFeatured": false
   },
   {
     "id": 6,
     "slug": "ladies/running-tights",
-    "description": {
-      "title": "Running Tights",
-      "brand": "Adidas",
-      "category": "Ladies",
-      "price": 89.99
-    },
+    "title": "Running Tights",
+    "brand": "Adidas",
+    "category": "Ladies",
+    "price": 89.99,
     "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/15feb24721aa4f398a72af9b00e64369_9366/leggings-7-8-dailyrun.jpg",
     "isFeatured": true
   },
   {
     "id": 7,
     "slug": "headwear-goods/beanie-hat",
-    "description": {
-      "title": "Beanie Hat",
-      "brand": "Puma",
-      "category": "Headwear & Goods",
-      "price": 19.99
-    },
+    "title": "Beanie Hat",
+    "brand": "Puma",
+    "category": "Headwear & Goods",
+    "price": 19.99,
     "image": "https://cdna.lystit.com/photos/puma/9398259c/puma-Team-Blue-Bmw-Apex-Knit-Beanie.jpeg",
     "isFeatured": false
   },
   {
     "id": 8,
     "slug": "hoodies/pullover-hoodie",
-    "description": {
-      "title": "Pullover Hoodie",
-      "brand": "Reebok",
-      "category": "Hoodies",
-      "price": 49.99,
-      "isFeatured": true
-    },
+    "title": "Pullover Hoodie",
+    "brand": "Reebok",
+    "category": "Hoodies",
+    "price": 49.99,
+    "isFeatured": true,
     "image": "https://m.media-amazon.com/images/I/81z+nLAH15L._UY550_.jpg"
   },
   {
     "id": 9,
     "slug": "ladies/tank-top",
-    "description": {
-      "title": "Tank Top",
-      "brand": "Nike",
-      "category": "Ladies",
-      "price": 29.99
-    },
+    "title": "Tank Top",
+    "brand": "Nike",
+    "category": "Ladies",
+    "price": 29.99,
     "image": "https://www.sportsdirect.com/images/imgzoom/65/65829303_xxl.jpg",
     "isFeatured": false
   },
   {
     "id": 10,
     "slug": "headwear-goods/sunglasses",
-    "description": {
-      "title": "Sunglasses",
-      "brand": "Ray-Ban",
-      "category": "Headwear & Goods",
-      "price": 129.99
-    },
+    "title": "Sunglasses",
+    "brand": "Ray-Ban",
+    "category": "Headwear & Goods",
+    "price": 129.99,
     "image": "https://n.nordstrommedia.com/id/sr3/7fb2c900-2b9a-42ae-82c3-95c526a16f66.jpeg?crop=pad&pad_color=FFF&format=jpeg",
     "isFeatured": false
   },
   {
     "id": 11,
     "slug": "men/athletic-shorts",
-    "description": {
-      "title": "Athletic Shorts",
-      "brand": "Adidas",
-      "category": "Men",
-      "price": 39.99
-    },
+    "title": "Athletic Shorts",
+    "brand": "Adidas",
+    "category": "Men",
+    "price": 39.99,
     "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d620619d66d47398da3ac9300d3b28d_9366/essentials-fleece-3-stripes-shorts.jpg",
     "isFeatured": true
   },
   {
     "id": 12,
     "slug": "ladies/sports-bra",
-    "description": {
-      "title": "Sports Bra",
-      "brand": "Under Armour",
-      "category": "Ladies",
-      "price": 49.99
-    },
+    "title": "Sports Bra",
+    "brand": "Under Armour",
+    "category": "Ladies",
+    "price": 49.99,
     "image": "https://m.media-amazon.com/images/I/81BffUbnUXL._AC_UY1000_.jpg",
     "isFeatured": false
   },
   {
     "id": 13,
     "slug": "men/sneakers",
-    "description": {
-      "title": "Sneakers",
-      "brand": "Nike",
-      "category": "Men",
-      "price": 159.99
-    },
+    "title": "Sneakers",
+    "brand": "Nike",
+    "category": "Men",
+    "price": 159.99,
     "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67031162-9cc5-481d-8ffe-7ada8f3d78bd/custom-nike-air-force-1-high-by-you-shoes.png",
     "isFeatured": true
   },
   {
     "id": 14,
     "slug": "headwear-goods/scarf",
-    "description": {
-      "title": "Scarf",
-      "brand": "Burberry",
-      "category": "Headwear & Goods",
-      "price": 199.99
-    },
+    "title": "Scarf",
+    "brand": "Burberry",
+    "category": "Headwear & Goods",
+    "price": 199.99,
     "image": "https://image.harrods.com/14/15/38/60/14153860_30815292_2048.jpg",
     "isFeatured": false
   },
   {
     "id": 15,
     "slug": "ladies/sweatpants",
-    "description": {
-      "title": "Sweatpants",
-      "brand": "Puma",
-      "category": "Ladies",
-      "price": 69.99
-    },
+    "title": "Sweatpants",
+    "brand": "Puma",
+    "category": "Ladies",
+    "price": 69.99,
     "image": "https://res.cloudinary.com/moresport/image/upload/a_0,c_fill,f_auto,q_auto:good/v1575961299/uploads/assets/1149695-PUMABLACK-3-ocz.jpg",
     "isFeatured": false
   },
   {
     "id": 16,
     "slug": "men/dress-shirt",
-    "description": {
-      "title": "Dress Shirt",
-      "brand": "Ralph Lauren",
-      "category": "Men",
-      "price": 99.99
-    },
+    "title": "Dress Shirt",
+    "brand": "Ralph Lauren",
+    "category": "Men",
+    "price": 99.99,
     "image": "https://m.media-amazon.com/images/I/61Kzh2K7teL._AC_SL1320_.jpg",
     "isFeatured": false
   },
   {
     "id": 17,
     "slug": "headwear-goods/beanie",
-    "description": {
-      "title": "Beanie",
-      "brand": "Carhartt",
-      "category": "Headwear & Goods",
-      "price": 29.99
-    },
+    "title": "Beanie",
+    "brand": "Carhartt",
+    "category": "Headwear & Goods",
+    "price": 29.99,
     "image": "https://m.media-amazon.com/images/I/81MSnS4nUnL._AC_UL1500_.jpg",
     "isFeatured": true
   },
   {
     "id": 18,
     "slug": "ladies/leggings",
-    "description": {
-      "title": "Leggings",
-      "brand": "Lululemon",
-      "category": "Ladies",
-      "price": 89.99
-    },
+    "title": "Leggings",
+    "brand": "Lululemon",
+    "category": "Ladies",
+    "price": 89.99,
     "image": "https://vader-prod.s3.amazonaws.com/1657042039-LW5CTBS_038292_1.jpg",
     "isFeatured": false
   },
   {
     "id": 19,
     "slug": "men/casual-shoes",
-    "description": {
-      "title": "Casual Shoes",
-      "brand": "Sperry",
-      "category": "Men",
-      "price": 79.99
-    },
+    "title": "Casual Shoes",
+    "brand": "Sperry",
+    "category": "Men",
+    "price": 79.99,
     "image": "https://i.pinimg.com/originals/b6/ec/cc/b6eccce410550a9255a332c28e17f09f.jpg",
     "isFeatured": true
   },
   {
     "id": 20,
     "slug": "ladies/crop-top",
-    "description": {
-      "title": "Crop Top",
-      "brand": "Free People",
-      "category": "Ladies",
-      "price": 39.99
-    },
+    "title": "Crop Top",
+    "brand": "Free People",
+    "category": "Ladies",
+    "price": 39.99,
     "image": "https://m.media-amazon.com/images/I/B1Glof2GDGS._AC_UY1000_.jpg",
     "isFeatured": true
   }

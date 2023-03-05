@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { darken } from 'polished';
 
 export const DescriptionWrapper = styled.div`
   color: #b5b5b5;
@@ -25,21 +26,25 @@ export const PriceContent = styled.div`
 export const DescriptionContent = styled.div``;
 
 export const ImageWrapper = styled.div`
-  width: 100%;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-
-  img {
-    transition: all 0.2s ease-in-out;
-    object-fit: cover;
+  ${({ theme }) => css`
     width: 100%;
-    height: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: ${theme.border.radius.rounded};
+    border-radius: ${theme.border.radius.rounded};
 
-    &:hover {
-      transform: scale(1.1);
+    img {
+      transition: all 0.2s ease-in-out;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
-  }
+  `}
 `;
 
 export const Title = styled.div`
@@ -53,27 +58,51 @@ export const Title = styled.div`
   text-transform: uppercase;
 `;
 
-export const Wrapper = styled.div<{ hasDescription: boolean }>`
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 25rem;
-  height: fit-content;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  background-color: #fff;
-  transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s;
+export const AddToCart = styled.div`
+  ${({ theme }) => css`
+    button {
+      width: 100%;
+      border: 0;
+      outline: 0;
+      box-shadow: 0;
+      padding: ${theme.spacings.xsmall};
+      background: ${theme.colors.primary};
+      color: ${theme.colors.white};
+      font-weight: 600;
+      cursor: pointer;
+      transition: ${theme.transition.default};
+      border-bottom-left-radius: ${theme.border.radius.rounded};
+      border-bottom-right-radius: ${theme.border.radius.rounded};
+    }
+  `}
+`;
 
-  :hover {
-    cursor: pointer;
+export const Wrapper = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 25rem;
+    height: fit-content;
+    border-radius: ${theme.border.radius.rounded};
+    background-color: #fff;
+    transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s;
 
-    ${DescriptionWrapper} {
-      background-color: #000;
-      color: #fff;
+    :hover {
+      cursor: pointer;
 
-      & ${PriceContent} {
-        color: white;
+      ${DescriptionWrapper} {
+        background-color: #000;
+        color: #fff;
+
+        & ${PriceContent} {
+          color: white;
+        }
+      }
+
+      button {
+        background-color: ${darken(0.1, theme.colors.primary)};
       }
     }
-  }
+  `}
 `;

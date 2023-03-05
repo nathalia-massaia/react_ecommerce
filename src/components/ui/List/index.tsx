@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ListItem from 'components/ui/ListItem';
+import { ProductProps } from 'models/product';
+import { CategoryProps } from 'models/category';
 import * as S from './styles';
 
 type ListProps = {
-  title: string;
-  items: any[];
+  title?: string;
+  items: ProductProps[] | CategoryProps[];
 };
 
 const List = ({ title, items }: ListProps) => {
@@ -15,7 +17,7 @@ const List = ({ title, items }: ListProps) => {
       <S.ListWrapper>
         {items.map((item) => (
           <Link key={item.id} to={item.slug}>
-            <ListItem {...item} />
+            <ListItem item={item} />
           </Link>
         ))}
       </S.ListWrapper>

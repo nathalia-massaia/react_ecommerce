@@ -10,37 +10,31 @@ import { formatSlug } from 'utils/formatSlug';
 
 const Category = () => {
   const location = useLocation();
-  const titlePath = decodeURIComponent(
-    location.pathname.split('/')[2].toLowerCase().charAt(0).toUpperCase() +
-      location.pathname.split('/')[2].toLowerCase().slice(1)
-  );
+  const titlePath = decodeURIComponent(location.pathname.split('/')[1]);
 
   const [products, setProducts] = useState<ProductProps[]>(
     productMock as ProductProps[]
-  ); //lista de produtos
-  const [sortValue, setSortValue] = useState('priceAsc'); //valor do select
+  );
+
+  const [sortValue, setSortValue] = useState('priceAsc');
 
   const sortedProducts = (value: string) => {
     let sorted = [...products];
     switch (value) {
       case 'priceAsc':
-        sorted.sort((a, b) => +a.description!.price - +b.description!.price);
+        sorted.sort((a, b) => +a!.price - +b!.price);
         break;
 
       case 'priceDesc':
-        sorted.sort((a, b) => +b.description!.price - +a.description!.price);
+        sorted.sort((a, b) => +b!.price - +a!.price);
         break;
 
       case 'nameAsc':
-        sorted.sort((a, b) =>
-          a.description!.brand.localeCompare(b.description!.brand)
-        );
+        sorted.sort((a, b) => a!.brand.localeCompare(b!.brand));
         break;
 
       case 'nameDesc':
-        sorted.sort((a, b) =>
-          b.description!.brand.localeCompare(a.description!.brand)
-        );
+        sorted.sort((a, b) => b!.brand.localeCompare(a!.brand));
         break;
 
       default:
@@ -77,7 +71,7 @@ const Category = () => {
       <List
         title={formatSlug(titlePath)}
         items={products.filter((product) =>
-          product.description.category.includes(formatSlug(titlePath))
+          product.category.includes(formatSlug(titlePath))
         )}
       />
     </Base>
