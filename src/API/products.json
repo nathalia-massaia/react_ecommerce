@@ -13,6 +13,7 @@
   {
     "id": 2,
     "slug": "ladies/yoga-pants",
+
     "title": "Yoga Pants",
     "brand": "Adidas",
     "category": "Ladies",
@@ -23,6 +24,7 @@
   {
     "id": 3,
     "slug": "headwear-goods/baseball-cap",
+
     "title": "Baseball Cap",
     "brand": "Puma",
     "category": "Headwear & Goods",
@@ -33,6 +35,7 @@
   {
     "id": 4,
     "slug": "hoodies/zip-up-hoodie",
+
     "title": "Zip-Up Hoodie",
     "brand": "Reebok",
     "category": "Hoodies",
@@ -43,6 +46,7 @@
   {
     "id": 5,
     "slug": "men/basketball-shorts",
+
     "title": "Basketball Shorts",
     "brand": "Nike",
     "category": "Men",
@@ -53,6 +57,7 @@
   {
     "id": 6,
     "slug": "ladies/running-tights",
+
     "title": "Running Tights",
     "brand": "Adidas",
     "category": "Ladies",
@@ -63,6 +68,7 @@
   {
     "id": 7,
     "slug": "headwear-goods/beanie-hat",
+
     "title": "Beanie Hat",
     "brand": "Puma",
     "category": "Headwear & Goods",
@@ -73,6 +79,7 @@
   {
     "id": 8,
     "slug": "hoodies/pullover-hoodie",
+
     "title": "Pullover Hoodie",
     "brand": "Reebok",
     "category": "Hoodies",
@@ -83,6 +90,7 @@
   {
     "id": 9,
     "slug": "ladies/tank-top",
+
     "title": "Tank Top",
     "brand": "Nike",
     "category": "Ladies",
@@ -93,6 +101,7 @@
   {
     "id": 10,
     "slug": "headwear-goods/sunglasses",
+
     "title": "Sunglasses",
     "brand": "Ray-Ban",
     "category": "Headwear & Goods",
@@ -103,6 +112,7 @@
   {
     "id": 11,
     "slug": "men/athletic-shorts",
+
     "title": "Athletic Shorts",
     "brand": "Adidas",
     "category": "Men",
@@ -113,6 +123,7 @@
   {
     "id": 12,
     "slug": "ladies/sports-bra",
+
     "title": "Sports Bra",
     "brand": "Under Armour",
     "category": "Ladies",
@@ -123,6 +134,7 @@
   {
     "id": 13,
     "slug": "men/sneakers",
+
     "title": "Sneakers",
     "brand": "Nike",
     "category": "Men",
@@ -133,6 +145,7 @@
   {
     "id": 14,
     "slug": "headwear-goods/scarf",
+
     "title": "Scarf",
     "brand": "Burberry",
     "category": "Headwear & Goods",
@@ -143,6 +156,7 @@
   {
     "id": 15,
     "slug": "ladies/sweatpants",
+
     "title": "Sweatpants",
     "brand": "Puma",
     "category": "Ladies",
@@ -153,6 +167,7 @@
   {
     "id": 16,
     "slug": "men/dress-shirt",
+
     "title": "Dress Shirt",
     "brand": "Ralph Lauren",
     "category": "Men",
@@ -163,6 +178,7 @@
   {
     "id": 17,
     "slug": "headwear-goods/beanie",
+
     "title": "Beanie",
     "brand": "Carhartt",
     "category": "Headwear & Goods",
@@ -173,6 +189,7 @@
   {
     "id": 18,
     "slug": "ladies/leggings",
+
     "title": "Leggings",
     "brand": "Lululemon",
     "category": "Ladies",
@@ -183,6 +200,7 @@
   {
     "id": 19,
     "slug": "men/casual-shoes",
+
     "title": "Night effect Shoes",
     "brand": "Sperry",
     "category": "Men",
@@ -192,7 +210,19 @@
   },
   {
     "id": 20,
+    "slug": "ladies/crop-top",
+
+    "title": "Crop Top",
+    "brand": "Free People",
+    "category": "Ladies",
+    "price": 39.99,
+    "image": "https://m.media-amazon.com/images/I/B1Glof2GDGS._AC_UY1000_.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 21,
     "slug": "men/casual-shoes",
+
     "title": "Snickers Shoes",
     "brand": "Sperry",
     "category": "Men",
@@ -201,13 +231,80 @@
     "isFeatured": true
   },
   {
-    "id": 21,
-    "slug": "ladies/crop-top",
-    "title": "Crop Top",
-    "brand": "Free People",
+    "id": 22,
+    "slug": "men/casual-shoes",
+
+    "title": "Snickers Shoes",
+    "brand": "Sperry",
+    "category": "Men",
+    "price": 66.89,
+    "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F03%2Fjojo-bizarre-adventure-vans-era-slip-on-3.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 23,
+    "slug": "ladies/casual-shoes",
+
+    "title": "Snickers Shoes",
+    "brand": "Sperry",
     "category": "Ladies",
-    "price": 39.99,
-    "image": "https://m.media-amazon.com/images/I/B1Glof2GDGS._AC_UY1000_.jpg",
+    "price": 37.99,
+    "image": "https://ae01.alicdn.com/kf/S35a9cb6b385642f5a6f0a66d892d303cr/Anime-dos-desenhos-animados-jojo-aventura-bizarra-cujoh-jolyne-sapatos-de-pano-casuais-baixo-topo-leve.jpg_640x640.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 24,
+    "slug": "ladies/casual-shoes",
+
+    "title": "Snickers Shoes",
+    "brand": "Adidas",
+    "category": "Ladies",
+    "price": 45.75,
+    "image": "https://ae01.alicdn.com/kf/S422a34196cfa4d6a8cac180b1590eba1M/Anime-dos-desenhos-animados-jojo-aventura-bizarra-cujoh-jolyne-sapatos-de-pano-casuais-baixo-topo-leve.jpg_640x640.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 25,
+    "slug": "ladies/casual-shoes",
+
+    "title": "Snickers Shoes",
+    "brand": "Sperry",
+    "category": "Ladies",
+    "price": 44.99,
+    "image": "https://ae01.alicdn.com/kf/S32c163ffcdb3458e9b9494ac5bce8c47F/Anime-dos-desenhos-animados-jojo-aventura-bizarra-cujoh-jolyne-sapatos-de-pano-casuais-baixo-topo-leve.jpg_640x640.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 26,
+    "slug": "ladies/casual-shoes",
+
+    "title": "Snickers Shoes",
+    "brand": "Sperry",
+    "category": "Ladies",
+    "price": 95.99,
+    "image": "https://ae01.alicdn.com/kf/H26e0ef107e4c41ca830026c36f133a51j/Anime-jojo-bizarro-aventura-cosplay-sapatos-giorno-giovanna-bruno-bucciarati-kira-yoshikage-sapatilha-alta-superior-sapato.jpg_Q90.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 23,
+    "slug": "ladies/casual-shoes",
+
+    "title": "Snickers Shoes",
+    "brand": "Jessp",
+    "category": "Ladies",
+    "price": 94.66,
+    "image": "https://ae01.alicdn.com/kf/S0c486893ac2c480d95325547b465cdad2/Anime-japon-s-jojo-bizarre-s-bizarra-aventura-jonathan-joestar-homem-mulher-adolescentes-alta-superior-lazer.jpg_640x640.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 23,
+    "slug": "men/casual-shoes",
+
+    "title": "Crocs Shoes",
+    "brand": "Jessp",
+    "category": "Men",
+    "price": 94.66,
+    "image": "https://ae01.alicdn.com/kf/S44fb87b7201842ff9d0bc5aa63e3118bH/Jojos-dos-desenhos-animados-bizarro-aventura-casa-tamancos-sapatos-de-gua-personalizados-dos-homens-das-mulheres.jpg_640x640.jpg",
     "isFeatured": true
   }
 ]
