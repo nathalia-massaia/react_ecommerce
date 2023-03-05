@@ -14,19 +14,19 @@ Bug Fixes:
     ✔ Criar Styled-Component para o <p>FOLLOW US ON SOCIAL MEDIA</p>. @done(23-03-04 23:09)
 
   CardProduct:
-    ☐ Mover currencyFormatter para um arquivo separado em src/utils/currencyFormatter.ts.
-    ☐ Criar tipo específico para Categories para evitar ficar validando a prop description.
+    ✔ Mover currencyFormatter para um arquivo separado em src/utils/currencyFormatter.ts. @done(23-03-05 14:53)
+    ✔ Criar tipo específico para Categories para evitar ficar validando a prop description. @done(23-03-05 14:54)
     ☐ Criar Styled-Component para <img src={image} alt="product img" />.
-    ☐ Criar Styled-Component para <span>{currencyFormatter(description.price)}</span>.
+    ✔ Criar Styled-Component para <span>{currencyFormatter(description.price)}</span>. @done(23-03-05 14:57)
 
   CategoryList:
-    ☐ Isolar array de categories em um arquivo JSON separado, pois irá vir da API.
+    ✔ Isolar array de categories em um arquivo JSON separado, pois irá vir da API. @done(23-03-05 14:57)
 
   Logo:
-    ☐ Criar Styled-Component para <img src="/img/Safoda.png" width={width} height={height} alt="logo" />.
+    ✔ Criar Styled-Component para <img src="/img/Safoda.png" width={width} height={height} alt="logo" />. @done(23-03-05 14:57)
 
   SearchBar:
-    ☐ Remover o componente, pois não está e não será utilizado.
+    ✔ Remover o componente, pois não está e não será utilizado. @done(23-03-05 14:58)
 
 Tasks:
   Criar componentes genéricos:

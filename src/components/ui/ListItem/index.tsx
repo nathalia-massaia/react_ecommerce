@@ -1,4 +1,5 @@
 import * as S from './styles';
+import { currencyFormatter } from 'utils/currencyFormatter';
 
 export type ProductDescription = {
   brand: string;
@@ -14,10 +15,6 @@ export type ListItemProps = {
   isFeatured?: boolean;
 };
 
-function currencyFormatter(value: number) {
-  return `${value.toFixed(2).replace('.', ',')}€`;
-}
-
 const ListItem = ({ title, description, image }: ListItemProps) => (
   <S.Wrapper hasDescription={!!description}>
     <S.ImageWrapper>
@@ -31,9 +28,7 @@ const ListItem = ({ title, description, image }: ListItemProps) => (
           <p>{description.title}</p>
           <p>{description.category}</p>
         </S.DescriptionContent>
-        <S.PriceContent>
-          <span>{currencyFormatter(description.price)}</span>
-        </S.PriceContent>
+        <S.PriceContent>{currencyFormatter(description.price)}</S.PriceContent>
       </S.DescriptionWrapper>
     )}
   </S.Wrapper>
