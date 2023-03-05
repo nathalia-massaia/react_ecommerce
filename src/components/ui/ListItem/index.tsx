@@ -15,6 +15,7 @@ const ListItem = ({ item }: ListItemProps) => {
       <S.ImageWrapper>
         <img src={item.image} alt="product img" />
       </S.ImageWrapper>
+      {!isProduct && <S.Title>{item.title}</S.Title>}
 
       {isProduct && (
         <>
