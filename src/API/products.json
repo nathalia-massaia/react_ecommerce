@@ -4,7 +4,7 @@
     "slug": "men/running-shoes",
 
     "title": "Running Shoes",
-    "brand": "Nike",
+    "brand": "Hierophant Green",
     "category": "Men",
     "price": 129.99,
     "image": "https://ae01.alicdn.com/kf/S7719873ecbda4548a3caf9798bf26f3em/Anime-mang-jojo-aventura-bizarra-kakyoin-noriaki-sapatos-casuais-baixo-topo-leve-respir-vel-t-nis.jpg_Q90.jpg",
@@ -12,13 +12,13 @@
   },
   {
     "id": 2,
-    "slug": "ladies/yoga-pants",
+    "slug": "ladies/dress-shirt",
 
-    "title": "Yoga Pants",
-    "brand": "Adidas",
+    "title": "Dress Shirt",
+    "brand": "Stone Free",
     "category": "Ladies",
     "price": 79.99,
-    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/479d7836796740dfa422ac7c012eafb4_9366/Elevate_Yoga_Flow_7-8_Tights_Black_GL0615_HM1.jpg",
+    "image": "https://ae01.alicdn.com/kf/Sa90bd974b55d4837a5b9450ce3dd2f3di/Camisa-de-manga-curta-de-impress-o-feminina-aventura-jap-o-jolyne-cujoh-casual-jojo-camisetas.jpg_Q90.jpg",
     "isFeatured": false
   },
   {
@@ -26,43 +26,43 @@
     "slug": "headwear-goods/baseball-cap",
 
     "title": "Baseball Cap",
-    "brand": "Puma",
+    "brand": "Jojo",
     "category": "Headwear & Goods",
     "price": 24.99,
-    "image": "https://m.media-amazon.com/images/I/81D2N0-EamL._AC_SL1500_.jpg",
+    "image": "https://ae01.alicdn.com/kf/H8d767b4dcb8b4ce5a660d74ed9bb6713O/Bon-de-ver-o-jjba-estrela-platina-ora-hip-hop-bon-jojo-aventura-bizarra-cowboy-chap.jpg_Q90.jpg",
     "isFeatured": false
   },
   {
     "id": 4,
-    "slug": "hoodies/zip-up-hoodie",
+    "slug": "hoodies/long-sleeves",
 
-    "title": "Zip-Up Hoodie",
-    "brand": "Reebok",
+    "title": "Long Sleeves",
+    "brand": "Sex Pistols",
     "category": "Hoodies",
     "price": 59.99,
-    "image": "https://assets.reebok.com/images/w_600,f_auto,q_auto/292cd736339d4051b8e2af0a00ea240a_9366/Reebok_Identity_Fleece_Full-Zip_Hoodie_Black_HS7374_01_standard.jpg",
+    "image": "https://ae01.alicdn.com/kf/He045fbac2ca24d6283c89b0a56ec2aebU/Anime-jojo-aventura-bizarra-hoodies-inverno-roupas-femininas-men-engra-ado-dos-desenhos-animados-sex-pistols.jpg_640x640.jpg",
     "isFeatured": true
   },
   {
     "id": 5,
-    "slug": "men/basketball-shorts",
+    "slug": "men/shorts",
 
-    "title": "Basketball Shorts",
-    "brand": "Nike",
+    "title": "Shorts",
+    "brand": "Golden Wind",
     "category": "Men",
     "price": 44.99,
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/deb53701-76a5-4f63-b897-267ba3862ead/dna-mens-8-woven-basketball-shorts-t2VdQv.png",
+    "image": "https://ae01.alicdn.com/kf/Sa96674b7555f4bea9a0fa6a7961066ccX/Jojo-s-bizarra-aventura-board-shorts-anime-confort-vel-praia-shorts-masculino-impress-o-mais-tamanho.jpg_Q90.jpg",
     "isFeatured": false
   },
   {
     "id": 6,
-    "slug": "ladies/running-tights",
+    "slug": "ladies/dress-shirt",
 
-    "title": "Running Tights",
-    "brand": "Adidas",
+    "title": "Dress Shirt",
+    "brand": "Jojo",
     "category": "Ladies",
-    "price": 89.99,
-    "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/15feb24721aa4f398a72af9b00e64369_9366/leggings-7-8-dailyrun.jpg",
+    "price": 43.99,
+    "image": "https://ae01.alicdn.com/kf/S98dfdefc670e4fc9ad18f9f8559eb7e8g.jpg?width=800&height=800&hash=1600.jpg",
     "isFeatured": true
   },
   {
@@ -70,10 +70,10 @@
     "slug": "headwear-goods/beanie-hat",
 
     "title": "Beanie Hat",
-    "brand": "Puma",
+    "brand": "Jojo",
     "category": "Headwear & Goods",
     "price": 19.99,
-    "image": "https://cdna.lystit.com/photos/puma/9398259c/puma-Team-Blue-Bmw-Apex-Knit-Beanie.jpeg",
+    "image": "https://i.ebayimg.com/images/g/wXQAAOSwJixhcMpg/s-l500.jpg",
     "isFeatured": false
   },
   {
@@ -81,21 +81,21 @@
     "slug": "hoodies/pullover-hoodie",
 
     "title": "Pullover Hoodie",
-    "brand": "Reebok",
+    "brand": "Gold Experience",
     "category": "Hoodies",
     "price": 49.99,
     "isFeatured": true,
-    "image": "https://m.media-amazon.com/images/I/81z+nLAH15L._UY550_.jpg"
+    "image": "https://img.fruugo.com/product/0/24/683497240_max.jpg"
   },
   {
     "id": 9,
-    "slug": "ladies/tank-top",
+    "slug": "ladies/dress-shirt",
 
-    "title": "Tank Top",
-    "brand": "Nike",
+    "title": "Dress Shirt",
+    "brand": "Jojo",
     "category": "Ladies",
     "price": 29.99,
-    "image": "https://www.sportsdirect.com/images/imgzoom/65/65829303_xxl.jpg",
+    "image": "https://ph-test-11.slatic.net/p/108fdb12e2323baa48b179f1a11fa0ee.jpg",
     "isFeatured": false
   },
   {
@@ -103,10 +103,10 @@
     "slug": "headwear-goods/sunglasses",
 
     "title": "Sunglasses",
-    "brand": "Ray-Ban",
+    "brand": "Hierophant Green",
     "category": "Headwear & Goods",
-    "price": 129.99,
-    "image": "https://n.nordstrommedia.com/id/sr3/7fb2c900-2b9a-42ae-82c3-95c526a16f66.jpeg?crop=pad&pad_color=FFF&format=jpeg",
+    "price": 149.99,
+    "image": "https://otsukai.com/public/item/47895/5fa270bf44c9c.jpeg?operation=thumbnail&w=300.jpg",
     "isFeatured": false
   },
   {
@@ -114,32 +114,32 @@
     "slug": "men/athletic-shorts",
 
     "title": "Athletic Shorts",
-    "brand": "Adidas",
+    "brand": "Jojo",
     "category": "Men",
-    "price": 39.99,
-    "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d620619d66d47398da3ac9300d3b28d_9366/essentials-fleece-3-stripes-shorts.jpg",
+    "price": 29.49,
+    "image": "https://ae01.alicdn.com/kf/H0fd1aafd42ef4ae9a3e33a2f1ccdfbb3U/CLOOCL-Fashion-Anime-Jojo-s-Bizarre-Adventure-Diamond-Men-3D-Print-Shorts-Summer-Harajuku-Hip-hop.jpg_220x220xz.jpg_.webp",
     "isFeatured": true
   },
   {
     "id": 12,
-    "slug": "ladies/sports-bra",
+    "slug": "ladies/dress-shirt",
 
-    "title": "Sports Bra",
-    "brand": "Under Armour",
+    "title": "Dress Shirt",
+    "brand": "Star Platinum",
     "category": "Ladies",
-    "price": 49.99,
-    "image": "https://m.media-amazon.com/images/I/81BffUbnUXL._AC_UY1000_.jpg",
-    "isFeatured": false
+    "price": 43.99,
+    "image": "https://sc04.alicdn.com/kf/Hc4c1a5b794864433931ff14b9061298bh.jpg",
+    "isFeatured": true
   },
   {
     "id": 13,
     "slug": "men/sneakers",
 
     "title": "Sneakers",
-    "brand": "Nike",
+    "brand": "Pale Snake",
     "category": "Men",
     "price": 159.99,
-    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67031162-9cc5-481d-8ffe-7ada8f3d78bd/custom-nike-air-force-1-high-by-you-shoes.png",
+    "image": "https://s.alicdn.com/@sc04/kf/H8ae44af6893b4153972ce5940939dbc22.jpeg_960x960.jpeg",
     "isFeatured": true
   },
   {
@@ -147,10 +147,10 @@
     "slug": "headwear-goods/scarf",
 
     "title": "Scarf",
-    "brand": "Burberry",
+    "brand": "Jojo",
     "category": "Headwear & Goods",
     "price": 199.99,
-    "image": "https://image.harrods.com/14/15/38/60/14153860_30815292_2048.jpg",
+    "image": "https://m.media-amazon.com/images/I/41LRPv1An1L._SR240,220_.jpg",
     "isFeatured": false
   },
   {
@@ -158,10 +158,10 @@
     "slug": "ladies/sweatpants",
 
     "title": "Sweatpants",
-    "brand": "Puma",
+    "brand": "Jojo",
     "category": "Ladies",
     "price": 69.99,
-    "image": "https://res.cloudinary.com/moresport/image/upload/a_0,c_fill,f_auto,q_auto:good/v1575961299/uploads/assets/1149695-PUMABLACK-3-ocz.jpg",
+    "image": "https://i.etsystatic.com/37796933/r/il/ba85f7/4242722704/il_fullxfull.4242722704_76z3.jpg",
     "isFeatured": false
   },
   {
@@ -169,40 +169,40 @@
     "slug": "men/dress-shirt",
 
     "title": "Dress Shirt",
-    "brand": "Ralph Lauren",
+    "brand": "Hermit Purple",
     "category": "Men",
     "price": 99.99,
-    "image": "https://m.media-amazon.com/images/I/61Kzh2K7teL._AC_SL1320_.jpg",
+    "image": "https://ae01.alicdn.com/kf/H419d68092d4c4cbcb3cbfb0f4504123as/Camiseta-de-algod-o-solto-dos-desenhos-animados-dos-desenhos-animados-dos-desenhos-animados-dos-desenhos.jpg",
     "isFeatured": false
   },
   {
     "id": 17,
-    "slug": "headwear-goods/beanie",
+    "slug": "headwear-goods/beanie-hat",
 
-    "title": "Beanie",
-    "brand": "Carhartt",
+    "title": "Beanie Hat",
+    "brand": "Jojo",
     "category": "Headwear & Goods",
     "price": 29.99,
-    "image": "https://m.media-amazon.com/images/I/81MSnS4nUnL._AC_UL1500_.jpg",
+    "image": "https://ae01.alicdn.com/kf/Hc3d2259f8f194ac78bed7f0d53929aa4g/JOJO-Bizarre-Adventure-Anime-Skullies-Caps-Knitted-Beanies-Winter-Warm-Hats-Men-Women-Boys-Girls-Gift.jpg_Q90.jpg",
     "isFeatured": true
   },
   {
     "id": 18,
-    "slug": "ladies/leggings",
+    "slug": "ladies/sweatpants",
 
-    "title": "Leggings",
-    "brand": "Lululemon",
+    "title": "Sweatpants",
+    "brand": "Jojo",
     "category": "Ladies",
     "price": 89.99,
-    "image": "https://vader-prod.s3.amazonaws.com/1657042039-LW5CTBS_038292_1.jpg",
+    "image": "https://i.pinimg.com/originals/f5/67/7d/f5677df658b6fc19eebb62c6cab656e9.png",
     "isFeatured": false
   },
   {
     "id": 19,
     "slug": "men/casual-shoes",
 
-    "title": "Night effect Shoes",
-    "brand": "Sperry",
+    "title": "Night Effect Shoes",
+    "brand": "Diamond Is Unbreakable",
     "category": "Men",
     "price": 99.99,
     "image": "https://ae01.alicdn.com/kf/Sf396ab23521f47c2ac76b4b095a240c58/Jojo-bizarro-aventura-t-nis-das-mulheres-dos-homens-adolescente-sapatos-casuais-lona-corrida-3d-impress.jpg_Q90.jpg",
@@ -213,18 +213,18 @@
     "slug": "ladies/crop-top",
 
     "title": "Crop Top",
-    "brand": "Free People",
+    "brand": "Jojo",
     "category": "Ladies",
     "price": 39.99,
-    "image": "https://m.media-amazon.com/images/I/B1Glof2GDGS._AC_UY1000_.jpg",
+    "image": "https://ae01.alicdn.com/kf/S952de121968b4656bd8da6ea544240403/Jojo-s-Bizarre-Adventure-Anime-Crop-Top-Women-Japanese-Anime-Harajuku-T-shirt-Summer-Crop-Shirt.jpg_640x640.jpg",
     "isFeatured": true
   },
   {
     "id": 21,
     "slug": "men/casual-shoes",
 
-    "title": "Snickers Shoes",
-    "brand": "Sperry",
+    "title": "Sneakers Shoes",
+    "brand": "Jojo",
     "category": "Men",
     "price": 99.99,
     "image": "https://ae01.alicdn.com/kf/Sf03490259071419abdc328ac8aabb03bS/Quente-anime-dos-desenhos-animados-assassino-rainha-jojo-aventura-bizarra-casual-sapatos-de-pano-leve-das.jpg_Q90.jpg",
@@ -234,8 +234,8 @@
     "id": 22,
     "slug": "men/casual-shoes",
 
-    "title": "Snickers Shoes",
-    "brand": "Sperry",
+    "title": "Sneakers Shoes",
+    "brand": "Sticky Fingers",
     "category": "Men",
     "price": 66.89,
     "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F03%2Fjojo-bizarre-adventure-vans-era-slip-on-3.jpg",
@@ -245,8 +245,8 @@
     "id": 23,
     "slug": "ladies/casual-shoes",
 
-    "title": "Snickers Shoes",
-    "brand": "Sperry",
+    "title": "Sneakers Shoes",
+    "brand": "Jojo",
     "category": "Ladies",
     "price": 37.99,
     "image": "https://ae01.alicdn.com/kf/S35a9cb6b385642f5a6f0a66d892d303cr/Anime-dos-desenhos-animados-jojo-aventura-bizarra-cujoh-jolyne-sapatos-de-pano-casuais-baixo-topo-leve.jpg_640x640.jpg",
@@ -256,8 +256,8 @@
     "id": 24,
     "slug": "ladies/casual-shoes",
 
-    "title": "Snickers Shoes",
-    "brand": "Adidas",
+    "title": "Sneakers Shoes",
+    "brand": "Star Platinum",
     "category": "Ladies",
     "price": 45.75,
     "image": "https://ae01.alicdn.com/kf/S422a34196cfa4d6a8cac180b1590eba1M/Anime-dos-desenhos-animados-jojo-aventura-bizarra-cujoh-jolyne-sapatos-de-pano-casuais-baixo-topo-leve.jpg_640x640.jpg",
@@ -267,8 +267,8 @@
     "id": 25,
     "slug": "ladies/casual-shoes",
 
-    "title": "Snickers Shoes",
-    "brand": "Sperry",
+    "title": "Sneakers Shoes",
+    "brand": "Jojo",
     "category": "Ladies",
     "price": 44.99,
     "image": "https://ae01.alicdn.com/kf/S32c163ffcdb3458e9b9494ac5bce8c47F/Anime-dos-desenhos-animados-jojo-aventura-bizarra-cujoh-jolyne-sapatos-de-pano-casuais-baixo-topo-leve.jpg_640x640.jpg",
@@ -278,33 +278,198 @@
     "id": 26,
     "slug": "ladies/casual-shoes",
 
-    "title": "Snickers Shoes",
-    "brand": "Sperry",
+    "title": "Sneakers Shoes",
+    "brand": "Jojo",
     "category": "Ladies",
     "price": 95.99,
     "image": "https://ae01.alicdn.com/kf/H26e0ef107e4c41ca830026c36f133a51j/Anime-jojo-bizarro-aventura-cosplay-sapatos-giorno-giovanna-bruno-bucciarati-kira-yoshikage-sapatilha-alta-superior-sapato.jpg_Q90.jpg",
     "isFeatured": true
   },
   {
-    "id": 23,
+    "id": 27,
     "slug": "ladies/casual-shoes",
 
-    "title": "Snickers Shoes",
-    "brand": "Jessp",
+    "title": "Sneakers Shoes",
+    "brand": "Jojo",
     "category": "Ladies",
     "price": 94.66,
     "image": "https://ae01.alicdn.com/kf/S0c486893ac2c480d95325547b465cdad2/Anime-japon-s-jojo-bizarre-s-bizarra-aventura-jonathan-joestar-homem-mulher-adolescentes-alta-superior-lazer.jpg_640x640.jpg",
     "isFeatured": true
   },
   {
-    "id": 23,
+    "id": 28,
     "slug": "men/casual-shoes",
 
     "title": "Crocs Shoes",
-    "brand": "Jessp",
+    "brand": "Star Platinum",
     "category": "Men",
-    "price": 94.66,
+    "price": 23.66,
     "image": "https://ae01.alicdn.com/kf/S44fb87b7201842ff9d0bc5aa63e3118bH/Jojos-dos-desenhos-animados-bizarro-aventura-casa-tamancos-sapatos-de-gua-personalizados-dos-homens-das-mulheres.jpg_640x640.jpg",
     "isFeatured": true
+  },
+  {
+    "id": 29,
+    "slug": "men/dress-shirt",
+
+    "title": "Dress Shirt",
+    "brand": "Stone Mask",
+    "category": "Men",
+    "price": 92.99,
+    "image": "https://ae01.alicdn.com/kf/S26390ac57f874ff2a4f1521df1bbe03e3/Anime-jojo-bizarre-s-bizarro-aventura-3d-impress-o-t-camisa-legal-novidade-t-camisa-topo.jpg_640x640.jpg",
+    "isFeatured": false
+  },
+  {
+    "id": 30,
+    "slug": "men/dress-shirt",
+
+    "title": "Dress Shirt",
+    "brand": "Star Platinum",
+    "category": "Men",
+    "price": 95.89,
+    "image": "https://ae01.alicdn.com/kf/S3e04c424179944049b8a92ab4322b1f2E/Anime-jojo-bizarre-s-bizarro-aventura-3d-impress-o-t-camisa-legal-novidade-t-camisa-topo.jpg_640x640.jpg",
+    "isFeatured": false
+  },
+  {
+    "id": 31,
+    "slug": "men/athletic-shorts",
+
+    "title": "Athletic Shorts",
+    "brand": "Jojo",
+    "category": "Men",
+    "price": 35.89,
+    "image": "https://ae01.alicdn.com/kf/S3d867dc851ac4fd1ace72311d7d0c90cM/Summer-Cotton-Shorts-Men-Women-Japanese-Anime-Jojo-Bizarre-Adventure-Basic-Shorts-Shorts-Fitness-Sports-Beach.jpg_220x220xz.jpg",
+    "isFeatured": false
+  },
+  {
+    "id": 32,
+    "slug": "hoodies/zip-up-hoodie",
+
+    "title": "Zip-Up Hoodie",
+    "brand": "Jojo",
+    "category": "Hoodies",
+    "price": 67.59,
+    "image": "https://ae01.alicdn.com/kf/H4bf36a04135748d8a406e9bf10b741e6n/Anime-jojo-bizarro-aventura-kujo-jotaro-cosplay-capuz-com-capuz-3d-impress-o-pul-ver-moletom.jpg_Q90.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 33,
+    "slug": "hoodies/pullover-hoodie",
+
+    "title": "Pullover Hoodie",
+    "brand": "Gold Experience",
+    "category": "Hoodies",
+    "price": 29.99,
+    "image": "https://ae01.alicdn.com/kf/H6633469dff644dc382ce5ea6e1add2feC/Unissex-jojo-bizarro-aventura-japon-s-3d-anime-hoodie-masculino-feminino-jojo-engra-ado-dos-desenhos.jpg_Q90.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 34,
+    "slug": "hoodies/hoodie",
+
+    "title": "Hoodie",
+    "brand": "Jojo",
+    "category": "Hoodies",
+    "price": 49.35,
+    "image": "https://img.fruugo.com/product/6/51/690337516_max.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 35,
+    "slug": "hoodies/hoodie",
+
+    "title": "Hoodie",
+    "brand": "Killer Queen",
+    "category": "Hoodies",
+    "price": 44.55,
+    "image": "https://ae01.alicdn.com/kf/H4bb5c64d42ed44fc8da5a1007ef397c8K/Anime-jojos-aventura-bizarra-hoodie-assassino-rainha-sweatshirts-cozy-topos-moletom-sudadera-felpa.jpg_Q90.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 36,
+    "slug": "hoodies/zip-up-hoodie",
+
+    "title": "Zip-Up Hoodie",
+    "brand": "Silver Chariot",
+    "category": "Hoodies",
+    "price": 54.55,
+    "image": "https://ae01.alicdn.com/kf/Sad07bc562ec04ba7a7b1ba50437009016/Anime-jojo-aventura-bizarra-jean-polnareff-z-per-cardigan-moletom-engra-ado-manga-oversized-com-capuz.jpg_Q90.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 37,
+    "slug": "hoodies/zip-up-hoodie",
+
+    "title": "Zip-Up Hoodie",
+    "brand": "Star Platinum",
+    "category": "Hoodies",
+    "price": 34.88,
+    "image": "https://ae01.alicdn.com/kf/S621c789be0d44d42a731bc08c92cbe9fG/Jojo-bizarre-s-bizarro-aventura-pedra-oceano-kujo-jotaro-hoodies-solto-unisex-anime-dos-desenhos-animados.jpg_Q90.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 38,
+    "slug": "hoodies/zip-up-hoodie",
+
+    "title": "Zip-Up Hoodie",
+    "brand": "Star Platinum",
+    "category": "Hoodies",
+    "price": 66.98,
+    "image": "https://ae01.alicdn.com/kf/Sb6c3e3789b5b4384aa890a4a9fb342c0d/Anime-jojo-bizarro-aventura-hoodie-higashikata-josuke-cosplay-camisolas-jaqueta-topos-sudadera-felpa-moletom.jpg_Q90.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 39,
+    "slug": "ladies/crop-top",
+
+    "title": "Crop Top",
+    "brand": "Jojo",
+    "category": "Ladies",
+    "price": 43.99,
+    "image": "https://ae01.alicdn.com/kf/See1fb81484314bd089f5afb856f35abcS/Jojo-Bizarre-Adventure-T-Shirt-Women-Japanese-Anime-Crop-Top-T-shirt-Kawaii-Jojo-Graphic-Tshirt.jpg_640x640.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 40,
+    "slug": "headwear-goods/baseball-cap",
+
+    "title": "Baseball Cap",
+    "brand": "Jojo",
+    "category": "Headwear & Goods",
+    "price": 24.99,
+    "image": "https://ae01.alicdn.com/kf/Hf8643e01fb9f4da2b1fbe2f3b11fb96bg/Yoshikage-Kira-Jojos-Bizarre-Adventure-Basketball-Cap-men-women-Fashion-all-over-print-black-Unisex-adult.jpg_640x640.jpg",
+    "isFeatured": false
+  },
+  {
+    "id": 41,
+    "slug": "headwear-goods/hat",
+
+    "title": "Hat",
+    "brand": "Diamond Is Unbreakable",
+    "category": "Headwear & Goods",
+    "price": 24.99,
+    "image": "https://ae01.alicdn.com/kf/H3a4b76407c804612b82cca45e18ae0a15/Jojo-Bizarre-Adventure-4-Anime-Fisherman-s-Hat.jpg_Q90.jpg",
+    "isFeatured": false
+  },
+  {
+    "id": 42,
+    "slug": "headwear-goods/hat",
+
+    "title": "Hat",
+    "brand": "Jojo",
+    "category": "Headwear & Goods",
+    "price": 24.99,
+    "image": "https://ae01.alicdn.com/kf/S75b90842cd664956b4c2f8698f589927i/2022-novo-ver-o-jojo-bizarro-aventura-ouro-vento-gang-balde-chap-u-para-mulheres-praia.jpg_Q90.jpg",
+    "isFeatured": false
+  },
+  {
+    "id": 14,
+    "slug": "headwear-goods/scarf",
+
+    "title": "Scarf",
+    "brand": "Jojo",
+    "category": "Headwear & Goods",
+    "price": 189.99,
+    "image": "https://img.fruugo.com/product/9/84/549708849_max.jpg",
+    "isFeatured": false
   }
 ]
