@@ -9,7 +9,12 @@ type LogoProps = {
 const Logo = ({ width, height }: LogoProps) => (
   <S.Wrapper>
     <Link to="/">
-      <img src="/img/Safoda.png" width={width} height={height} alt="logo" />
+      <img
+        src="https://placehold.jp/000/ffffff/400x100.png?text=Logo"
+        width={width}
+        height={height}
+        alt="logo"
+      />
     </Link>
   </S.Wrapper>
 );

@@ -1,10 +1,10 @@
 import Accordion from 'components/ui/Accordion';
-import informationMock from 'API/info.json';
 import { Facebook as FacebookIcon } from '@styled-icons/boxicons-logos/Facebook';
 import { Instagram as InstagramIcon } from '@styled-icons/boxicons-logos/Instagram';
 import { Youtube as YoutubeIcon } from '@styled-icons/boxicons-logos/Youtube';
 import { Whatsapp as WhatsappIcon } from '@styled-icons/boxicons-logos/Whatsapp';
-import info from 'API/info.json';
+import informationMock from 'API/info.json';
+
 import * as S from './styles';
 
 const Footer = () => (

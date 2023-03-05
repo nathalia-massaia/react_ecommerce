@@ -1,12 +1,12 @@
-import { Cart as CartIcon } from '@styled-icons/icomoon/Cart';
+import CartButton from 'components/ui/CartButton';
+import Logo from 'components/ui/Logo';
 
 import * as S from './styles';
 
 const Header = () => (
   <S.Wrapper>
-    <S.IconWrapper>
-      <CartIcon size={60} color="white" />
-    </S.IconWrapper>
+    <Logo width={400} height={100} />
+    <CartButton />
   </S.Wrapper>
 );
 
