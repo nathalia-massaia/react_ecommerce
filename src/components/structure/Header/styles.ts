@@ -22,6 +22,11 @@ export const IconWrapper = styled.div`
   display: flex;
   align-items: center;
 
+  a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
   svg {
     color: #b5b5b5;
   }

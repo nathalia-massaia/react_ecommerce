@@ -7,7 +7,7 @@ const Content = () => (
   <S.Wrapper>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/category/:name" element={<Category />} />
+      <Route path="/:name" element={<Category />} />
     </Routes>
   </S.Wrapper>
 );

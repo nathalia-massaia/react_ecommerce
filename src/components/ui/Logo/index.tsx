@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import * as S from './styles';
 
 type LogoProps = {
@@ -7,7 +8,9 @@ type LogoProps = {
 
 const Logo = ({ width, height }: LogoProps) => (
   <S.Wrapper>
-    <img src="/img/Safoda.png" width={width} height={height} alt="logo" />
+    <Link to="/">
+      <img src="/img/Safoda.png" width={width} height={height} alt="logo" />
+    </Link>
   </S.Wrapper>
 );
 

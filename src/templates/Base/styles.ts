@@ -26,9 +26,12 @@ export const ContentWrapper = styled.div`
     background-color: ${theme.colors.darkGray};
     border-top: 0.1rem solid ${theme.colors.gray};
     padding: ${theme.spacings.large} 0;
+    display: flex;
+    flex-direction: column;
+    gap: ${theme.spacings.xxlarge};
 
     ${media.greaterThan('medium')`
-      max-width: 80rem;
+      max-width: 106rem;
     `}
   `}
 `;

@@ -57,7 +57,7 @@ export const Wrapper = styled.div<{ hasDescription: boolean }>`
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 180px;
+  width: 25rem;
   height: fit-content;
   border: 1px solid #e6e6e6;
   border-radius: 3px;

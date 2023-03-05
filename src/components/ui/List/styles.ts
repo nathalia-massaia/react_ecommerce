@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
   width: 100%;
   color: white;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
 
@@ -21,7 +20,6 @@ export const ListWrapper = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
 
   a {

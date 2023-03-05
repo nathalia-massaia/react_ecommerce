@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Men",
+    "slug": "men",
+    "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/77293306/3398688299.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Ladies",
+    "slug": "ladies",
+    "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/77293306/3398699026.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Headwear & Goods",
+    "slug": "headwear-goods",
+    "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/77293306/3398643346.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Hoodies",
+    "slug": "hoodies",
+    "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/77293306/3398699283.jpg"
+  }
+]

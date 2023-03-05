@@ -1,16 +1,15 @@
-import ProductList from 'components/ui/ProductList';
-import CategoryList from 'components/ui/CategoryList';
-import productMock from 'components/ui/ProductList/mock';
+import List from 'components/ui/List';
+import productMock from 'API/products.json';
+import categoryMock from 'API/categories.json';
 
 import Base from 'templates/Base';
 
 const Home = () => {
   return (
     <Base>
-      <CategoryList />
-
-      <ProductList
-        title={'Featured Products'}
+      <List title="Categories" items={categoryMock} />
+      <List
+        title="Featured Products"
         items={productMock.filter((product) => product.isFeatured).slice(0, 4)}
       />
     </Base>

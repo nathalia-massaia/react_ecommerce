@@ -6,7 +6,7 @@ export type ProductDescription = {
   category: 'Men' | 'Ladies' | 'Headwear & Goods' | 'Hoodies';
   price: number;
 };
-export type CardProductProps = {
+export type ListItemProps = {
   id: number;
   title?: string;
   description?: ProductDescription;
@@ -18,7 +18,7 @@ function currencyFormatter(value: number) {
   return `${value.toFixed(2).replace('.', ',')}€`;
 }
 
-const CardProduct = ({ title, description, image }: CardProductProps) => (
+const ListItem = ({ title, description, image }: ListItemProps) => (
   <S.Wrapper hasDescription={!!description}>
     <S.ImageWrapper>
       <img src={image} alt="product img" />
@@ -39,4 +39,4 @@ const CardProduct = ({ title, description, image }: CardProductProps) => (
   </S.Wrapper>
 );
 
-export default CardProduct;
+export default ListItem;

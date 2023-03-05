@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import productMock from 'components/ui/ProductList/mock';
-
-import * as S from './styles';
-import ProductList from 'components/ui/ProductList';
 import Base from 'templates/Base';
-import { CardProductProps } from 'components/ui/CardProduct';
+import List from 'components/ui/List';
+
+import productMock from 'API/products.json';
+import * as S from './styles';
+import { ProductProps } from 'models/product';
+import { formatSlug } from 'utils/formatSlug';
 
 const Category = () => {
   const location = useLocation();
@@ -14,7 +15,9 @@ const Category = () => {
       location.pathname.split('/')[2].toLowerCase().slice(1)
   );
 
-  const [products, setProducts] = useState<CardProductProps[]>(productMock); //lista de produtos
+  const [products, setProducts] = useState<ProductProps[]>(
+    productMock as ProductProps[]
+  ); //lista de produtos
   const [sortValue, setSortValue] = useState('priceAsc'); //valor do select
 
   const sortedProducts = (value: string) => {
@@ -59,10 +62,7 @@ const Category = () => {
     <Base>
       <S.Wrapper>
         <S.Title>
-          <h2>
-            <Link to={'/'}>Store</Link> / {titlePath.toUpperCase()}
-          </h2>
-          <h1>{titlePath.toUpperCase()}</h1>
+          <Link to={'/'}>Store</Link> / {formatSlug(titlePath)}
         </S.Title>
         <S.SelectWrapper>
           <p>SORT BY</p>
@@ -74,10 +74,10 @@ const Category = () => {
           </S.SelectContent>
         </S.SelectWrapper>
       </S.Wrapper>
-
-      <ProductList
+      <List
+        title={formatSlug(titlePath)}
         items={products.filter((product) =>
-          product.description?.category?.endsWith(titlePath)
+          product.description.category.includes(formatSlug(titlePath))
         )}
       />
     </Base>
