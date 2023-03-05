@@ -2,11 +2,13 @@
   {
     "id": 1,
     "slug": "men/running-shoes",
-    "title": "Running Shoes",
-    "brand": "Nike",
-    "category": "Men",
-    "price": 129.99,
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/5f6bb927-fd98-48bb-80cf-4ca2f7d9c906/tempo-road-running-shoes-rVsrCV.png",
+    "description": {
+      "title": "Running Shoes",
+      "brand": "Nike",
+      "category": "Men",
+      "price": 129.99
+    },
+    "image": "https://ae01.alicdn.com/kf/S7719873ecbda4548a3caf9798bf26f3em/Anime-mang-jojo-aventura-bizarra-kakyoin-noriaki-sapatos-casuais-baixo-topo-leve-respir-vel-t-nis.jpg_Q90.jpg",
     "isFeatured": true
   },
   {
@@ -182,11 +184,25 @@
   {
     "id": 19,
     "slug": "men/casual-shoes",
-    "title": "Casual Shoes",
-    "brand": "Sperry",
-    "category": "Men",
-    "price": 79.99,
-    "image": "https://i.pinimg.com/originals/b6/ec/cc/b6eccce410550a9255a332c28e17f09f.jpg",
+    "description": {
+      "title": "Night effect Shoes",
+      "brand": "Sperry",
+      "category": "Men",
+      "price": 99.99
+    },
+    "image": "https://ae01.alicdn.com/kf/Sf396ab23521f47c2ac76b4b095a240c58/Jojo-bizarro-aventura-t-nis-das-mulheres-dos-homens-adolescente-sapatos-casuais-lona-corrida-3d-impress.jpg_Q90.jpg",
+    "isFeatured": true
+  },
+  {
+    "id": 19,
+    "slug": "men/casual-shoes",
+    "description": {
+      "title": "Snickers Shoes",
+      "brand": "Sperry",
+      "category": "Men",
+      "price": 99.99
+    },
+    "image": "https://ae01.alicdn.com/kf/Sf03490259071419abdc328ac8aabb03bS/Quente-anime-dos-desenhos-animados-assassino-rainha-jojo-aventura-bizarra-casual-sapatos-de-pano-leve-das.jpg_Q90.jpg",
     "isFeatured": true
   },
   {

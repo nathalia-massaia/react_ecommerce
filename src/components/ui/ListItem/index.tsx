@@ -1,6 +1,7 @@
 import { CategoryProps } from 'models/category';
 import { ProductProps } from 'models/product';
 import * as S from './styles';
+import { currencyFormatter } from 'utils/currencyFormatter';
 
 export type ListItemProps = {
   item: ProductProps | CategoryProps;
@@ -25,7 +26,7 @@ const ListItem = ({ item }: ListItemProps) => {
             </S.DescriptionContent>
 
             <S.PriceContent>
-              <span>{item.price}</span>
+              <span>{currencyFormatter(item.price)}</span>
             </S.PriceContent>
           </S.DescriptionWrapper>
 
