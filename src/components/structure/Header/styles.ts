@@ -2,20 +2,12 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   background-color: #000;
+  min-height: 15rem;
   width: 100%;
   padding-top: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  gap: 5rem;
-`;
-export const CopyrightWrapper = styled.div`
+  padding: 1rem;
   display: flex;
-  color: #b5b5b5;
-  font-size: 14px;
-  text-align: left;
-  flex-direction: column;
-  align-items: flex-end;
+  gap: 5rem;
 `;
 
 export const IconWrapper = styled.div`
@@ -26,8 +18,3 @@ export const IconWrapper = styled.div`
     color: #b5b5b5;
   }
 `;
-
-// position: fixed!important;
-// z-index: 101;
-// width: 100%;
-// min-width: 768px;
