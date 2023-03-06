@@ -28,15 +28,27 @@ const Footer = () => (
       ))}
     </S.AccordionWrapper>
 
-    <p>FOLLOW US ON SOCIAL MEDIA</p>
-    <S.SocialMediaIcon>
-      <FacebookIcon size={40} />
-      <InstagramIcon size={40} />
-      <YoutubeIcon size={40} />
-      <WhatsappIcon size={40} />
-    </S.SocialMediaIcon>
+    <S.SocialMediaWrapper>
+      <p>FOLLOW US ON SOCIAL MEDIA</p>
+      <S.SocialMediaIconWrapper>
+        <FacebookIcon size={30} />
+        <InstagramIcon size={30} />
+        <YoutubeIcon size={30} />
+        <WhatsappIcon size={30} />
+      </S.SocialMediaIconWrapper>
+    </S.SocialMediaWrapper>
 
     <S.CopyrightWrapper>
+      <p>
+        Made with ❤️ by{' '}
+        <a
+          href="https://linkedin.com/in/nathalia-massaia"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Nathália Massaia
+        </a>
+      </p>
       <p>© 2023 All rights reserved</p>
     </S.CopyrightWrapper>
   </S.Wrapper>

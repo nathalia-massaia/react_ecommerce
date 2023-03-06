@@ -1,7 +1,9 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  margin: auto;
-  padding: 0;
-  background-color: #000;
+  ${({ theme }) => css`
+    margin: auto;
+    padding: 0;
+    background-color: ${theme.colors.deepblack};
+  `}
 `;

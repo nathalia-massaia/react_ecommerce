@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Base from 'templates/Base';
 import List from 'components/ui/List';
@@ -6,10 +6,8 @@ import Breadcrumb from 'components/structure/Breadcrumb';
 import { ProductProps } from 'models/product';
 import { formatSlug } from 'utils/formatSlug';
 import productMock from 'API/products.json';
-import * as S from './styles';
-import SortSelect from 'components/ui/SortSelect';
 
-const Category = () => {
+const CategoryPage = () => {
   const location = useLocation();
   const titlePath = decodeURIComponent(location.pathname.split('/')[1]);
 
@@ -54,19 +52,18 @@ const Category = () => {
   return (
     <Base>
       <Breadcrumb />
-      <S.Wrapper>
-        <List
-          title={formatSlug(titlePath)}
-          items={products.filter((product) =>
-            product.category.includes(formatSlug(titlePath))
-          )}
-          sortable
-          sortOptions={sortOptions}
-          onSort={handleSortItems}
-        />
-      </S.Wrapper>
+
+      <List
+        title={formatSlug(titlePath)}
+        items={products.filter((product) =>
+          product.category.includes(formatSlug(titlePath))
+        )}
+        sortable
+        sortOptions={sortOptions}
+        onSort={handleSortItems}
+      />
     </Base>
   );
 };
 
-export default Category;
+export default CategoryPage;

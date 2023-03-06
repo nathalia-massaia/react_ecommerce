@@ -29,7 +29,7 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
 
     ${media.greaterThan('medium')`
-      max-width: 106rem;
+      max-width: 105rem;
     `}
   `}
 `;

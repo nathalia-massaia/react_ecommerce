@@ -36,15 +36,19 @@ const WrapperModifiers = {
     }
   `,
 
-  rounded: {
-    default: () => css``,
-    full: () => css``,
-    none: () => css``
-  }
+  disabled: (theme: DefaultTheme) => css`
+    background-color: ${theme.colors.gray};
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: ${theme.colors.gray};
+      color: ${theme.colors.white};
+    }
+  `
 };
 
 export const Wrapper = styled.button<WrapperProps>`
-  ${({ theme, btntype, minimal, fullwidth, rounded }) => css`
+  ${({ theme, btntype, minimal, fullwidth, rounded, disabled }) => css`
     border: 0;
     outline: none;
     box-shadow: none;
@@ -63,6 +67,7 @@ export const Wrapper = styled.button<WrapperProps>`
     }
 
     ${!!btntype && WrapperModifiers[btntype](theme)}
-    ${!!minimal && WrapperModifiers.minimal(theme, btntype || 'default')}
+    ${minimal && WrapperModifiers.minimal(theme, btntype || 'default')}
+    ${disabled && WrapperModifiers.disabled(theme)}
   `}
 `;

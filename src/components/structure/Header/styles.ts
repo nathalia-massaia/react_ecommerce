@@ -1,12 +1,14 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  background-color: #000;
-  height: 15rem;
-  width: 100%;
-  display: flex;
-  gap: 5rem;
-  position: relative;
+  ${({ theme }) => css`
+    background-color: ${theme.colors.deepblack};
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    position: relative;
+  `}
 `;
 
 export const IconWrapper = styled.div`

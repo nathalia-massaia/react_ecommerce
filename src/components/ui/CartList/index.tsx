@@ -4,9 +4,10 @@ import CartListItem from 'components/ui/CartListItem';
 import { currencyFormatter } from 'utils/currencyFormatter';
 import * as S from './styles';
 import Button from 'components/generics/Button';
+import { Link } from 'react-router-dom';
 
 const CartList = () => {
-  const { cartItems, subtotal, clearCart } = useCart();
+  const { cartItems, subtotal, clearCart, changeCartVisibility } = useCart();
 
   return (
     <S.Wrapper>
@@ -36,9 +37,15 @@ const CartList = () => {
           </S.OrderInfoWrapper>
 
           <S.ActionWrapper>
-            <Button fullwidth btntype='primary' onClick={() => console.log('checkout')}>
-              CHECKOUT
-            </Button>
+            <Link to="/cart">
+              <Button
+                fullwidth
+                btntype="primary"
+                onClick={() => changeCartVisibility(false)}
+              >
+                CHECKOUT
+              </Button>
+            </Link>
             <Button fullwidth onClick={clearCart}>
               CLEAR
             </Button>

@@ -6,6 +6,7 @@ export const BreadcrumbWrapper = styled.div`
     font-weight: ${theme.font.bold};
     color: ${theme.colors.darkgray};
     width: 100%;
+    margin-bottom: ${theme.spacings.medium};
   `}
 `;
 

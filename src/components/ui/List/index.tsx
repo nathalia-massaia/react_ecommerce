@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import ListItem from 'components/ui/ListItem';
 import { ProductProps } from 'models/product';
 import { CategoryProps } from 'models/category';

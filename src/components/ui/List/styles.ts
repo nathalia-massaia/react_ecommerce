@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
   display: flex;
@@ -18,6 +19,7 @@ export const Title = styled.h2`
 export const ListWrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
     gap: ${theme.spacings.xsmall};
@@ -26,10 +28,16 @@ export const ListWrapper = styled.div`
 
 export const ListContent = styled.div`
   ${({ theme }) => css`
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: ${theme.spacings.xsmall};
-    justify-content: center;
+
+    ${media.greaterThan('large')`
+      grid-template-columns: repeat(4, 1fr) ;
+    `}
+
+    ${media.lessThan('medium')`
+      grid-template-columns: repeat(2, 1fr);
+    `}
   `}
 `;

@@ -1,19 +1,32 @@
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  background-color: #000;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 2rem;
-  width: 100%;
-  font-size: 18px;
-  color: #b5b5b5;
+  ${({ theme }) => css`
+    background-color: ${theme.colors.deepblack};
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: ${theme.spacings.small};
+    padding: ${theme.spacings.small};
+    width: 100%;
+
+    color: #b5b5b5;
+  `}
 `;
 
 export const CopyrightWrapper = styled.div`
-  font-size: 14px;
+  ${({ theme }) => css`
+    font-size: ${theme.font.sizes.xsmall};
+    display: flex;
+    flex-direction: column;
+    gap: ${theme.spacings.xxsmall};
+    align-items: center;
+
+    a {
+      color: ${theme.colors.primary};
+      cursor: pointer;
+    }
+  `}
 `;
 
 export const InputEmail = styled.input`
@@ -27,14 +40,32 @@ export const InputEmail = styled.input`
   margin-top: 1rem;
 `;
 
-export const SocialMediaIcon = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 2rem;
+export const SocialMediaWrapper = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: ${theme.spacings.xxsmall};
+  `}
+`;
 
-  svg {
-    color: #b5b5b5;
-  }
+export const SocialMediaIconWrapper = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    svg {
+      color: ${theme.colors.gray};
+      transition: ${theme.transition.fast};
+      cursor: pointer;
+
+      &:hover {
+        color: ${theme.colors.primary};
+        transform: scale(1.1);
+      }
+    }
+  `}
 `;
 export const NewsletterWrapper = styled.div`
   ${({ theme }) => css`
@@ -43,20 +74,13 @@ export const NewsletterWrapper = styled.div`
     flex-direction: column;
     gap: ${theme.spacings.xsmall};
     color: ${theme.colors.primary};
+
+    > div {
+      font-size: ${theme.font.sizes.medium};
+    }
   `}
 `;
 
 export const AccordionWrapper = styled.div`
-  width: 40%;
-`;
-
-export const AccordionItemContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-
-  p {
-    color: #535353;
-    margin-top: 1rem;
-  }
+  width: fit-content;
 `;

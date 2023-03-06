@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import { CategoryProps } from 'models/category';
 import { ProductProps } from 'models/product';
-import { currencyFormatter } from 'utils/currencyFormatter';
-import useCart from 'hooks/useCart';
-import * as S from './styles';
 import Button from 'components/generics/Button';
+import useCart from 'hooks/useCart';
+import { currencyFormatter } from 'utils/currencyFormatter';
+import { truncate } from 'utils/stringTransform';
+import * as S from './styles';
 
 export type ListItemProps = {
   item: ProductProps | CategoryProps;
@@ -24,7 +25,9 @@ const ListItem = ({ item }: ListItemProps) => {
 
         {isProduct && (
           <S.DescriptionWrapper>
-            <S.ProductTitle>{item.title}</S.ProductTitle>
+            <S.ProductTitle title={item.title.length > 24 ? item.title : ''}>
+              {truncate(item.title)}
+            </S.ProductTitle>
             <S.DescriptionContent>
               <S.ProductInfo>
                 <p>{item.brand}</p>

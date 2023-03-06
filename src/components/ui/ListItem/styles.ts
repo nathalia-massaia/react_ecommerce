@@ -1,13 +1,11 @@
 import styled, { css } from 'styled-components';
-import { darken } from 'polished';
 
 export const DescriptionWrapper = styled.div`
   ${({ theme }) => css`
-    color: #b5b5b5;
+    color: ${theme.colors.gray};
     padding: ${theme.spacings.xxsmall};
-    font-weight: initial;
     text-transform: uppercase;
-    transition: all 0.2s ease 0s;
+    transition: ${theme.transition.default};
 
     p {
       word-break: break-word;
@@ -68,14 +66,16 @@ export const ImageWrapper = styled.div`
 `;
 
 export const Title = styled.div`
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
-  text-align: center;
-  bottom: 1rem;
-  width: 100%;
-  text-transform: uppercase;
+  ${({ theme }) => css`
+    color: ${theme.colors.white};
+    font-size: ${theme.font.sizes.xlarge};
+    font-weight: ${theme.font.bold};
+    position: absolute;
+    text-align: center;
+    bottom: ${theme.spacings.xxsmall};
+    width: 100%;
+    text-transform: uppercase;
+  `}
 `;
 
 export const AddToCart = styled.div`
@@ -94,18 +94,18 @@ export const Wrapper = styled.div`
     width: 25rem;
     height: fit-content;
     border-radius: ${theme.border.radius.rounded};
-    background-color: #fff;
+    background-color: ${theme.colors.white};
     transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s;
 
     :hover {
       cursor: pointer;
 
       ${DescriptionWrapper} {
-        background-color: #000;
-        color: #fff;
+        background-color: ${theme.colors.deepblack};
+        color: ${theme.colors.white};
 
         & ${PriceContent} {
-          color: white;
+          color: ${theme.colors.white};
         }
       }
     }

@@ -49,5 +49,7 @@ export const CartListWrapper = styled.div<{ visible: boolean }>`
     right: 0;
     transition: ${theme.transition.fast};
     opacity: ${visible ? 1 : 0};
+    height: ${visible ? 'auto' : 0};
+    overflow: ${visible ? 'auto' : 'hidden'};
   `}
 `;

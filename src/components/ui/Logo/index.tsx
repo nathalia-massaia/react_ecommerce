@@ -10,7 +10,7 @@ const Logo = ({ width, height }: LogoProps) => (
   <S.Wrapper>
     <Link to="/">
       <img
-        src="https://placehold.jp/000/ffffff/400x100.png?text=Logo"
+        src="https://placehold.jp/080808/ffffff/400x100.png?text=Logo"
         width={width}
         height={height}
         alt="logo"

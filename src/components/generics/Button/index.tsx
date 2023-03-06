@@ -8,6 +8,7 @@ export type ButtonProps = {
   minimal?: boolean;
   fullwidth?: boolean;
   rounded?: 'rounded' | 'full' | 'none';
+  disabled?: boolean;
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
 const Button = ({
@@ -17,6 +18,7 @@ const Button = ({
   minimal,
   fullwidth,
   rounded = 'rounded',
+  disabled,
   ...props
 }: ButtonProps) => {
   return (
@@ -25,6 +27,7 @@ const Button = ({
       minimal={minimal}
       fullwidth={fullwidth}
       rounded={rounded}
+      disabled={disabled}
       {...props}
     >
       {children}

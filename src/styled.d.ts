@@ -27,6 +27,7 @@ declare module 'styled-components' {
       primary: string;
       secondary: string;
       black: string;
+      deepblack: string;
       white: string;
       darkgray: string;
       gray: string;
