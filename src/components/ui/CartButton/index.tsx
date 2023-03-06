@@ -24,6 +24,7 @@ const CartButton = () => {
 
   return (
     <S.Wrapper>
+      {cartItems.length}
       <S.ButtonWrapper>
         <S.IconWrapper onMouseOver={() => changeCartVisibility(true)}>
           <CartIcon size={30} />

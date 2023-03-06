@@ -37,7 +37,12 @@ const ListItem = ({ item }: ListItemProps) => {
 
       {isProduct && (
         <S.AddToCart>
-          <Button rounded="none" onClick={() => addItem(item)}>
+          <Button
+            rounded="none"
+            btntype="primary"
+            fullwidth
+            onClick={() => addItem(item)}
+          >
             Add to cart
           </Button>
         </S.AddToCart>

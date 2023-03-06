@@ -24,7 +24,6 @@ const WrapperModifiers = {
   minimal: (theme: DefaultTheme, btntype: 'primary' | 'default') => css`
     max-width: fit-content;
     padding: 0;
-    margin: 0 auto;
     background: none;
     color: ${theme.colors[btntype === 'primary' ? 'primary' : 'black']};
 

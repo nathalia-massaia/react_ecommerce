@@ -80,20 +80,9 @@ export const Title = styled.div`
 
 export const AddToCart = styled.div`
   ${({ theme }) => css`
-    button {
-      width: 100%;
-      border: 0;
-      outline: 0;
-      box-shadow: 0;
-      padding: ${theme.spacings.xsmall};
-      background: ${theme.colors.primary};
-      color: ${theme.colors.white};
-      font-weight: 600;
-      cursor: pointer;
-      transition: ${theme.transition.default};
-      border-bottom-left-radius: ${theme.border.radius.rounded};
-      border-bottom-right-radius: ${theme.border.radius.rounded};
-    }
+    border-bottom-left-radius: ${theme.border.radius.rounded};
+    border-bottom-right-radius: ${theme.border.radius.rounded};
+    overflow: hidden;
   `}
 `;
 

@@ -8,6 +8,7 @@ import {
 import * as S from './styles';
 import { currencyFormatter } from 'utils/currencyFormatter';
 import useCart from 'hooks/useCart';
+import Button from 'components/generics/Button';
 
 const CartListItem = ({
   id,
@@ -35,23 +36,22 @@ const CartListItem = ({
       </S.DescriptionWrapper>
 
       <S.ActionWrapper>
-        <button onClick={() => removeItem(id)}>
+        <Button minimal onClick={() => removeItem(id)}>
           <CloseIcon size={10} />
-        </button>
+        </Button>
 
         <S.QuantityHandlerWrapper>
-          <button
+          <Button
             onClick={() =>
-              quantity === 1
-                ? removeItem(id)
-                : handleItemQuantity(id, '-')
+              quantity === 1 ? removeItem(id) : handleItemQuantity(id, '-')
             }
           >
             <MinusIcon size={10} />
-          </button>
-          <button onClick={() => handleItemQuantity(id, '+')}>
+          </Button>
+
+          <Button onClick={() => handleItemQuantity(id, '+')}>
             <PlusIcon size={10} />
-          </button>
+          </Button>
         </S.QuantityHandlerWrapper>
       </S.ActionWrapper>
     </S.Wrapper>
