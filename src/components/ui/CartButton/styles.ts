@@ -47,9 +47,8 @@ export const CartListWrapper = styled.div<{ visible: boolean }>`
   ${({ theme, visible }) => css`
     position: absolute;
     right: 0;
-    transition: ${theme.transition.fast};
-    opacity: ${visible ? 1 : 0};
-    height: ${visible ? 'auto' : 0};
-    overflow: ${visible ? 'auto' : 'hidden'};
+    transition: ${theme.transition.default};
+    max-height: ${visible ? '60rem' : '0'};
+    overflow: hidden;
   `}
 `;

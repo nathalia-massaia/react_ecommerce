@@ -13,7 +13,7 @@ const Footer = () => (
     <S.NewsletterWrapper>
       <div>
         Subscribe our newsletter
-        <S.InputEmail type="text" placeholder="example@email.pt" />
+        <S.InputEmail type="email" placeholder="example@email.pt" />
       </div>
       <Button btntype="primary" fullwidth onClick={() => 'added to newsletter'}>
         Subscribe

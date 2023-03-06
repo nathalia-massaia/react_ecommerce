@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
     padding: ${theme.spacings.small};
     width: 100%;
 
-    color: #b5b5b5;
+    color: ${theme.colors.gray};
   `}
 `;
 
@@ -30,14 +30,16 @@ export const CopyrightWrapper = styled.div`
 `;
 
 export const InputEmail = styled.input`
-  border: 0;
-  background-color: #fff;
-  color: #2a2a2a;
-  width: 100%;
-  border-radius: 1rem;
-  height: 3.5rem;
-  padding: 10px;
-  margin-top: 1rem;
+  ${({ theme }) => css`
+    border: 0;
+    background-color: ${theme.colors.white};
+    color: ${theme.colors.darkgray};
+    width: 100%;
+    border-radius: ${theme.border.radius.rounded};
+    height: 4.5rem;
+    padding: ${theme.spacings.xxsmall};
+    margin-top: ${theme.spacings.xxsmall};
+  `}
 `;
 
 export const SocialMediaWrapper = styled.div`
@@ -53,7 +55,7 @@ export const SocialMediaIconWrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: ${theme.spacings.xsmall};
 
     svg {
       color: ${theme.colors.gray};

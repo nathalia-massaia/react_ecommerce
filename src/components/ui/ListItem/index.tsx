@@ -17,7 +17,7 @@ const ListItem = ({ item }: ListItemProps) => {
 
   return (
     <S.Wrapper>
-      <Link to={item.slug}>
+      <Link to={!isProduct ? item.slug : '#'}>
         <S.ImageWrapper>
           <img src={item.image} alt="product img" />
         </S.ImageWrapper>

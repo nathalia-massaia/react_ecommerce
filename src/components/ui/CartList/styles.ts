@@ -12,7 +12,6 @@ export const Wrapper = styled.div`
     flex-direction: column;
     gap: ${theme.spacings.small};
     border: 0.1rem solid ${theme.colors.lightgray};
-    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
   `}
 `;
 

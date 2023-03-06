@@ -8,15 +8,7 @@ import * as S from './styles';
 
 const Home = () => {
   const featuredProducts = useMemo<ProductProps[]>(() => {
-    return productMock
-      .filter((product) => product.isFeatured)
-      .slice(0, 4)
-      .map((product) => {
-        if (!product.slug.includes(product.category.toLowerCase())) {
-          product.slug = `${product.category.toLowerCase()}/${product.slug}`;
-        }
-        return product;
-      });
+    return productMock.filter((product) => product.isFeatured).slice(0, 4);
   }, []);
 
   return (

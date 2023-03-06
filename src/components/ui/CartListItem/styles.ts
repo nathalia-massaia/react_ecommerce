@@ -35,7 +35,7 @@ export const ProductCount = styled.div`
     justify-content: center;
     color: ${theme.colors.white};
     position: absolute;
-    top: 1.38rem;
+    top: 1.4rem;
     left: 0;
   `}
 `;
