@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "slug": "men/running-shoes",
+    "slug": "running-shoes",
     "title": "Running Shoes",
     "brand": "Hierophant Green",
     "category": "Men",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "slug": "ladies/dress-shirt",
+    "slug": "dress-shirt",
     "title": "Dress Shirt",
     "brand": "Stone Free",
     "category": "Ladies",
@@ -21,17 +21,17 @@
   },
   {
     "id": 3,
-    "slug": "headwear-goods/baseball-cap",
+    "slug": "baseball-cap",
     "title": "Baseball Cap",
     "brand": "Jojo",
-    "category": "Headwear & Goods",
+    "category": "Acessories",
     "price": 24.99,
     "image": "https://ae01.alicdn.com/kf/H8d767b4dcb8b4ce5a660d74ed9bb6713O/Bon-de-ver-o-jjba-estrela-platina-ora-hip-hop-bon-jojo-aventura-bizarra-cowboy-chap.jpg_Q90.jpg",
     "isFeatured": false
   },
   {
     "id": 4,
-    "slug": "hoodies/long-sleeves",
+    "slug": "long-sleeves",
     "title": "Long Sleeves",
     "brand": "Sex Pistols",
     "category": "Hoodies",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "slug": "men/shorts",
+    "slug": "shorts",
     "title": "Shorts",
     "brand": "Golden Wind",
     "category": "Men",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "slug": "ladies/dress-shirt",
+    "slug": "dress-shirt",
     "title": "Dress Shirt",
     "brand": "Jojo",
     "category": "Ladies",
@@ -61,17 +61,17 @@
   },
   {
     "id": 7,
-    "slug": "headwear-goods/beanie-hat",
+    "slug": "beanie-hat",
     "title": "Beanie Hat",
     "brand": "Jojo",
-    "category": "Headwear & Goods",
+    "category": "Acessories",
     "price": 19.99,
     "image": "https://i.ebayimg.com/images/g/wXQAAOSwJixhcMpg/s-l500.jpg",
     "isFeatured": false
   },
   {
     "id": 8,
-    "slug": "hoodies/pullover-hoodie",
+    "slug": "pullover-hoodie",
     "title": "Pullover Hoodie",
     "brand": "Gold Experience",
     "category": "Hoodies",
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "slug": "ladies/dress-shirt",
+    "slug": "dress-shirt",
     "title": "Dress Shirt",
     "brand": "Jojo",
     "category": "Ladies",
@@ -91,17 +91,17 @@
   },
   {
     "id": 10,
-    "slug": "headwear-goods/sunglasses",
+    "slug": "sunglasses",
     "title": "Sunglasses",
     "brand": "Hierophant Green",
-    "category": "Headwear & Goods",
+    "category": "Acessories",
     "price": 149.99,
     "image": "https://otsukai.com/public/item/47895/5fa270bf44c9c.jpeg?operation=thumbnail&w=300.jpg",
     "isFeatured": false
   },
   {
     "id": 11,
-    "slug": "men/athletic-shorts",
+    "slug": "athletic-shorts",
     "title": "Athletic Shorts",
     "brand": "Jojo",
     "category": "Men",
@@ -111,7 +111,7 @@
   },
   {
     "id": 12,
-    "slug": "ladies/dress-shirt",
+    "slug": "dress-shirt",
     "title": "Dress Shirt",
     "brand": "Star Platinum",
     "category": "Ladies",
@@ -121,7 +121,7 @@
   },
   {
     "id": 13,
-    "slug": "men/sneakers",
+    "slug": "sneakers",
     "title": "Sneakers",
     "brand": "Pale Snake",
     "category": "Men",
@@ -131,17 +131,17 @@
   },
   {
     "id": 14,
-    "slug": "headwear-goods/scarf",
+    "slug": "scarf",
     "title": "Scarf",
     "brand": "Jojo",
-    "category": "Headwear & Goods",
+    "category": "Acessories",
     "price": 199.99,
     "image": "https://m.media-amazon.com/images/I/41LRPv1An1L._SR240,220_.jpg",
     "isFeatured": false
   },
   {
     "id": 15,
-    "slug": "ladies/sweatpants",
+    "slug": "sweatpants",
     "title": "Sweatpants",
     "brand": "Jojo",
     "category": "Ladies",
@@ -151,7 +151,7 @@
   },
   {
     "id": 16,
-    "slug": "men/dress-shirt",
+    "slug": "dress-shirt",
     "title": "Dress Shirt",
     "brand": "Hermit Purple",
     "category": "Men",
@@ -161,17 +161,17 @@
   },
   {
     "id": 17,
-    "slug": "headwear-goods/beanie-hat",
+    "slug": "beanie-hat",
     "title": "Beanie Hat",
     "brand": "Jojo",
-    "category": "Headwear & Goods",
+    "category": "Acessories",
     "price": 29.99,
     "image": "https://ae01.alicdn.com/kf/Hc3d2259f8f194ac78bed7f0d53929aa4g/JOJO-Bizarre-Adventure-Anime-Skullies-Caps-Knitted-Beanies-Winter-Warm-Hats-Men-Women-Boys-Girls-Gift.jpg_Q90.jpg",
     "isFeatured": true
   },
   {
     "id": 18,
-    "slug": "ladies/sweatpants",
+    "slug": "sweatpants",
     "title": "Sweatpants",
     "brand": "Jojo",
     "category": "Ladies",
@@ -181,7 +181,7 @@
   },
   {
     "id": 19,
-    "slug": "men/casual-shoes",
+    "slug": "casual-shoes",
     "title": "Night Effect Shoes",
     "brand": "Diamond Is Unbreakable",
     "category": "Men",
@@ -191,7 +191,7 @@
   },
   {
     "id": 20,
-    "slug": "ladies/crop-top",
+    "slug": "crop-top",
     "title": "Crop Top",
     "brand": "Jojo",
     "category": "Ladies",
@@ -201,7 +201,7 @@
   },
   {
     "id": 21,
-    "slug": "men/casual-shoes",
+    "slug": "casual-shoes",
     "title": "Sneakers Shoes",
     "brand": "Jojo",
     "category": "Men",
@@ -211,7 +211,7 @@
   },
   {
     "id": 22,
-    "slug": "men/casual-shoes",
+    "slug": "casual-shoes",
     "title": "Sneakers Shoes",
     "brand": "Sticky Fingers",
     "category": "Men",
@@ -221,7 +221,7 @@
   },
   {
     "id": 23,
-    "slug": "ladies/casual-shoes",
+    "slug": "casual-shoes",
     "title": "Sneakers Shoes",
     "brand": "Jojo",
     "category": "Ladies",
@@ -231,7 +231,7 @@
   },
   {
     "id": 24,
-    "slug": "ladies/casual-shoes",
+    "slug": "casual-shoes",
     "title": "Sneakers Shoes",
     "brand": "Star Platinum",
     "category": "Ladies",
@@ -241,7 +241,7 @@
   },
   {
     "id": 25,
-    "slug": "ladies/casual-shoes",
+    "slug": "casual-shoes",
     "title": "Sneakers Shoes",
     "brand": "Jojo",
     "category": "Ladies",
@@ -251,7 +251,7 @@
   },
   {
     "id": 26,
-    "slug": "ladies/casual-shoes",
+    "slug": "casual-shoes",
     "title": "Sneakers Shoes",
     "brand": "Jojo",
     "category": "Ladies",
@@ -261,7 +261,7 @@
   },
   {
     "id": 27,
-    "slug": "ladies/casual-shoes",
+    "slug": "casual-shoes",
     "title": "Sneakers Shoes",
     "brand": "Jojo",
     "category": "Ladies",
@@ -271,7 +271,7 @@
   },
   {
     "id": 28,
-    "slug": "men/casual-shoes",
+    "slug": "casual-shoes",
     "title": "Crocs Shoes",
     "brand": "Star Platinum",
     "category": "Men",
@@ -281,7 +281,7 @@
   },
   {
     "id": 29,
-    "slug": "men/dress-shirt",
+    "slug": "dress-shirt",
     "title": "Dress Shirt",
     "brand": "Stone Mask",
     "category": "Men",
@@ -291,7 +291,7 @@
   },
   {
     "id": 30,
-    "slug": "men/dress-shirt",
+    "slug": "dress-shirt",
     "title": "Dress Shirt",
     "brand": "Star Platinum",
     "category": "Men",
@@ -301,7 +301,7 @@
   },
   {
     "id": 31,
-    "slug": "men/athletic-shorts",
+    "slug": "athletic-shorts",
     "title": "Athletic Shorts",
     "brand": "Jojo",
     "category": "Men",
@@ -311,7 +311,7 @@
   },
   {
     "id": 32,
-    "slug": "hoodies/zip-up-hoodie",
+    "slug": "zip-up-hoodie",
     "title": "Zip-Up Hoodie",
     "brand": "Jojo",
     "category": "Hoodies",
@@ -321,7 +321,7 @@
   },
   {
     "id": 33,
-    "slug": "hoodies/pullover-hoodie",
+    "slug": "pullover-hoodie",
     "title": "Pullover Hoodie",
     "brand": "Gold Experience",
     "category": "Hoodies",
@@ -331,7 +331,7 @@
   },
   {
     "id": 34,
-    "slug": "hoodies/hoodie",
+    "slug": "hoodie",
     "title": "Hoodie",
     "brand": "Jojo",
     "category": "Hoodies",
@@ -341,7 +341,7 @@
   },
   {
     "id": 35,
-    "slug": "hoodies/hoodie",
+    "slug": "hoodie",
     "title": "Hoodie",
     "brand": "Killer Queen",
     "category": "Hoodies",
@@ -351,7 +351,7 @@
   },
   {
     "id": 36,
-    "slug": "hoodies/zip-up-hoodie",
+    "slug": "zip-up-hoodie",
     "title": "Zip-Up Hoodie",
     "brand": "Silver Chariot",
     "category": "Hoodies",
@@ -361,7 +361,7 @@
   },
   {
     "id": 37,
-    "slug": "hoodies/zip-up-hoodie",
+    "slug": "zip-up-hoodie",
     "title": "Zip-Up Hoodie",
     "brand": "Star Platinum",
     "category": "Hoodies",
@@ -371,7 +371,7 @@
   },
   {
     "id": 38,
-    "slug": "hoodies/zip-up-hoodie",
+    "slug": "zip-up-hoodie",
     "title": "Zip-Up Hoodie",
     "brand": "Star Platinum",
     "category": "Hoodies",
@@ -381,7 +381,7 @@
   },
   {
     "id": 39,
-    "slug": "ladies/crop-top",
+    "slug": "crop-top",
     "title": "Crop Top",
     "brand": "Jojo",
     "category": "Ladies",
@@ -391,40 +391,40 @@
   },
   {
     "id": 40,
-    "slug": "headwear-goods/baseball-cap",
+    "slug": "baseball-cap",
     "title": "Baseball Cap",
     "brand": "Jojo",
-    "category": "Headwear & Goods",
+    "category": "Acessories",
     "price": 24.99,
     "image": "https://ae01.alicdn.com/kf/Hf8643e01fb9f4da2b1fbe2f3b11fb96bg/Yoshikage-Kira-Jojos-Bizarre-Adventure-Basketball-Cap-men-women-Fashion-all-over-print-black-Unisex-adult.jpg_640x640.jpg",
     "isFeatured": false
   },
   {
     "id": 41,
-    "slug": "headwear-goods/hat",
+    "slug": "hat",
     "title": "Hat",
     "brand": "Diamond Is Unbreakable",
-    "category": "Headwear & Goods",
+    "category": "Acessories",
     "price": 24.99,
     "image": "https://ae01.alicdn.com/kf/H3a4b76407c804612b82cca45e18ae0a15/Jojo-Bizarre-Adventure-4-Anime-Fisherman-s-Hat.jpg_Q90.jpg",
     "isFeatured": false
   },
   {
     "id": 42,
-    "slug": "headwear-goods/hat",
+    "slug": "hat",
     "title": "Hat",
     "brand": "Jojo",
-    "category": "Headwear & Goods",
+    "category": "Acessories",
     "price": 24.99,
     "image": "https://ae01.alicdn.com/kf/S75b90842cd664956b4c2f8698f589927i/2022-novo-ver-o-jojo-bizarro-aventura-ouro-vento-gang-balde-chap-u-para-mulheres-praia.jpg_Q90.jpg",
     "isFeatured": false
   },
   {
     "id": 43,
-    "slug": "headwear-goods/scarf",
+    "slug": "scarf",
     "title": "Scarf",
     "brand": "Jojo",
-    "category": "Headwear & Goods",
+    "category": "Acessories",
     "price": 189.99,
     "image": "https://img.fruugo.com/product/9/84/549708849_max.jpg",
     "isFeatured": false

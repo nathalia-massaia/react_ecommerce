@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
   background-color: #000;
@@ -20,34 +20,30 @@ export const InputEmail = styled.input`
   border: 0;
   background-color: #fff;
   color: #2a2a2a;
-  width: 30%;
+  width: 100%;
+  border-radius: 1rem;
   height: 3.5rem;
   padding: 10px;
+  margin-top: 1rem;
 `;
 
 export const SocialMediaIcon = styled.div`
   display: flex;
   align-items: center;
   gap: 2rem;
+
   svg {
     color: #b5b5b5;
   }
 `;
-export const SubscribeButton = styled.button`
-  height: 5rem;
-  width: 20%;
-  background-color: #ff9800;
-  color: white;
-  font-weight: 700;
-  cursor: pointer;
-  border: none;
-  transition: all 0.3s;
-  border: 2px solid #ff9800;
-
-  &:hover {
-    background-color: #f7d9ab;
-    color: #ff9800;
-  }
+export const NewsletterWrapper = styled.div`
+  ${({ theme }) => css`
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: ${theme.spacings.xsmall};
+    color: ${theme.colors.primary};
+  `}
 `;
 
 export const AccordionWrapper = styled.div`

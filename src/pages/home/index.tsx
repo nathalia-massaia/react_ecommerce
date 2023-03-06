@@ -3,19 +3,22 @@ import productMock from 'API/products.json';
 import categoryMock from 'API/categories.json';
 import Base from 'templates/Base';
 import { ProductProps } from 'models/product';
+import * as S from './styles';
 
 const Home = () => {
   return (
     <Base>
-      <List title="Categories" items={categoryMock} />
-      <List
-        title="Featured Products"
-        items={
-          productMock
-            .filter((product) => product.isFeatured)
-            .slice(0, 4) as ProductProps[]
-        }
-      />
+      <S.Wrapper>
+        <List title="Categories" items={categoryMock} />
+        <List
+          title="Featured Products"
+          items={
+            productMock
+              .filter((product) => product.isFeatured)
+              .slice(0, 4) as ProductProps[]
+          }
+        />
+      </S.Wrapper>
     </Base>
   );
 };

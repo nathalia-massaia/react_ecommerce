@@ -6,8 +6,7 @@ export const Wrapper = styled.div`
     min-width: 40rem;
     margin-top: ${theme.spacings.xxsmall};
     border-radius: ${theme.border.radius.rounded};
-    max-height: 55rem;
-    min-height: 10rem;
+    max-height: 60rem;
     padding: ${theme.spacings.xsmall};
     display: flex;
     flex-direction: column;

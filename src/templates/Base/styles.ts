@@ -2,10 +2,9 @@ import styled, { css } from 'styled-components';
 import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
-  height: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 `;
 
 export const HeaderWrapper = styled.div`
@@ -28,7 +27,6 @@ export const ContentWrapper = styled.div`
     padding: ${theme.spacings.large} 0;
     display: flex;
     flex-direction: column;
-    gap: ${theme.spacings.xxlarge};
 
     ${media.greaterThan('medium')`
       max-width: 106rem;

@@ -1,29 +1,35 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  height: 100%;
-  width: 100%;
-  color: white;
   display: flex;
   justify-content: center;
   flex-direction: column;
+`;
 
-  h2 {
-    color: #daa520;
-    font-size: 30px;
-    font-weight: initial;
-    padding-bottom: 3rem;
-  }
+export const Title = styled.h2`
+  ${({ theme }) => css`
+    color: ${theme.colors.primary};
+    font-size: ${theme.font.sizes.xxlarge};
+    font-weight: ${theme.font.normal};
+    margin-bottom: ${theme.spacings.small};
+  `}
 `;
 
 export const ListWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  ${({ theme }) => css`
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: ${theme.spacings.xsmall};
+  `}
+`;
 
-  a {
-    text-decoration: none;
-  }
+export const ListContent = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: ${theme.spacings.xsmall};
+    justify-content: center;
+  `}
 `;

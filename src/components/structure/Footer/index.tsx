@@ -6,13 +6,19 @@ import { Whatsapp as WhatsappIcon } from '@styled-icons/boxicons-logos/Whatsapp'
 import informationMock from 'API/info.json';
 
 import * as S from './styles';
+import Button from 'components/generics/Button';
 
 const Footer = () => (
   <S.Wrapper>
-    <S.InputEmail type="text" placeholder="example@email.pt" />
-    <S.SubscribeButton type="submit" value="SUBSCRIBE">
-      SUBSCRIBE
-    </S.SubscribeButton>
+    <S.NewsletterWrapper>
+      <div>
+        Subscribe our newsletter
+        <S.InputEmail type="text" placeholder="example@email.pt" />
+      </div>
+      <Button btntype="primary" fullwidth onClick={() => 'added to newsletter'}>
+        Subscribe
+      </Button>
+    </S.NewsletterWrapper>
 
     <S.AccordionWrapper>
       {informationMock.map(({ title, description }) => (

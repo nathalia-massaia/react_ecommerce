@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useContext, useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import Base from 'templates/Base';
 import List from 'components/ui/List';
-
-import productMock from 'API/products.json';
-import * as S from './styles';
+import Breadcrumb from 'components/structure/Breadcrumb';
 import { ProductProps } from 'models/product';
 import { formatSlug } from 'utils/formatSlug';
+import productMock from 'API/products.json';
+import * as S from './styles';
+import SortSelect from 'components/ui/SortSelect';
 
 const Category = () => {
   const location = useLocation();
@@ -16,64 +17,54 @@ const Category = () => {
     productMock as ProductProps[]
   );
 
-  const [sortValue, setSortValue] = useState('priceAsc');
+  const sortOptions = [
+    { value: 'nameAsc', label: 'Name: A to Z' },
+    { value: 'nameDesc', label: 'Name: Z to A' },
+    { value: 'priceAsc', label: 'Price: Low to High' },
+    { value: 'priceDesc', label: 'Price: High to Low' }
+  ];
 
-  const sortedProducts = (value: string) => {
-    let sorted = [...products];
+  const handleSortItems = (value: string) => {
+    const sorted = [...products];
+
     switch (value) {
-      case 'priceAsc':
-        sorted.sort((a, b) => +a!.price - +b!.price);
-        break;
-
-      case 'priceDesc':
-        sorted.sort((a, b) => +b!.price - +a!.price);
-        break;
-
       case 'nameAsc':
-        sorted.sort((a, b) => a!.brand.localeCompare(b!.brand));
+        sorted.sort((a, b) => a.title.localeCompare(b.title));
         break;
 
       case 'nameDesc':
-        sorted.sort((a, b) => b!.brand.localeCompare(a!.brand));
+        sorted.sort((a, b) => b.title.localeCompare(a.title));
+        break;
+
+      case 'priceAsc':
+        sorted.sort((a, b) => a.price - b.price);
+        break;
+
+      case 'priceDesc':
+        sorted.sort((a, b) => b.price - a.price);
         break;
 
       default:
         break;
     }
-    return sorted;
-  };
 
-  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSortValue(event.currentTarget.value);
-  };
-
-  useEffect(() => {
-    const sorted = sortedProducts(sortValue);
     setProducts(sorted);
-  }, [sortValue]);
+  };
 
   return (
     <Base>
+      <Breadcrumb />
       <S.Wrapper>
-        <S.Title>
-          <Link to={'/'}>Store</Link> / {formatSlug(titlePath)}
-        </S.Title>
-        <S.SelectWrapper>
-          <p>SORT BY</p>
-          <S.SelectContent onChange={(event) => handleChange(event)}>
-            <option value="priceAsc">Price: Low to High</option>
-            <option value="priceDesc">Price: High to Low</option>
-            <option value="nameAsc">Name: A to Z</option>
-            <option value="nameDesc">Name: Z to A</option>
-          </S.SelectContent>
-        </S.SelectWrapper>
+        <List
+          title={formatSlug(titlePath)}
+          items={products.filter((product) =>
+            product.category.includes(formatSlug(titlePath))
+          )}
+          sortable
+          sortOptions={sortOptions}
+          onSort={handleSortItems}
+        />
       </S.Wrapper>
-      <List
-        title={formatSlug(titlePath)}
-        items={products.filter((product) =>
-          product.category.includes(formatSlug(titlePath))
-        )}
-      />
     </Base>
   );
 };
