@@ -16,7 +16,7 @@ Bug Fixes:
   CardProduct:
     ✔ Mover currencyFormatter para um arquivo separado em src/utils/currencyFormatter.ts. @done(23-03-05 14:53)
     ✔ Criar tipo específico para Categories para evitar ficar validando a prop description. @done(23-03-05 14:54)
-    ☐ Criar Styled-Component para <img src={image} alt="product img" />.
+    ✔ Criar Styled-Component para <img src={image} alt="product img" />. @done(23-03-06 00:29)
     ✔ Criar Styled-Component para <span>{currencyFormatter(description.price)}</span>. @done(23-03-05 14:57)
 
   CategoryList:
@@ -31,6 +31,6 @@ Bug Fixes:
 Tasks:
   Criar componentes genéricos:
     ☐ Textfield
-    ☐ Button
+    ✔ Button @done(23-03-06 00:29)
   ☐ Confirmação de remoção do carrinho
-  ☐ Botão de limpar carrinho
+  ✔ Botão de limpar carrinho @done(23-03-06 00:29)

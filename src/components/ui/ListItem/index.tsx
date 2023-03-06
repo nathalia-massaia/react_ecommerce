@@ -4,6 +4,7 @@ import { ProductProps } from 'models/product';
 import { currencyFormatter } from 'utils/currencyFormatter';
 import useCart from 'hooks/useCart';
 import * as S from './styles';
+import Button from 'components/generics/Button';
 
 export type ListItemProps = {
   item: ProductProps | CategoryProps;
@@ -23,22 +24,22 @@ const ListItem = ({ item }: ListItemProps) => {
 
         {isProduct && (
           <S.DescriptionWrapper>
+            <S.ProductTitle>{item.title}</S.ProductTitle>
             <S.DescriptionContent>
-              {<p>{item.brand}</p>}
-              {<p>{item.title}</p>}
-              {<p>{item.category}</p>}
+              <S.ProductInfo>
+                <p>{item.brand}</p>
+              </S.ProductInfo>
             </S.DescriptionContent>
-
-            <S.PriceContent>
-              <span>{currencyFormatter(item.price)}</span>
-            </S.PriceContent>
+            <S.PriceContent>{currencyFormatter(item.price)}</S.PriceContent>
           </S.DescriptionWrapper>
         )}
       </Link>
 
       {isProduct && (
         <S.AddToCart>
-          <button onClick={() => addItem(item)}>Add to cart</button>
+          <Button rounded="none" onClick={() => addItem(item)}>
+            Add to cart
+          </Button>
         </S.AddToCart>
       )}
     </S.Wrapper>

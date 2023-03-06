@@ -1,4 +1,4 @@
-import { useContext, useMemo } from 'react';
+import { useContext, useEffect, useMemo } from 'react';
 import { CartContext } from 'context/cart';
 import { CartProps } from 'models/cart';
 import { ProductProps } from 'models/product';
@@ -47,12 +47,18 @@ const useCart = (): CartProps => {
   };
 
   const changeCartVisibility = (isVisible: boolean) => {
-    setCartIsVisible(isVisible);
+    cartItems.length && setCartIsVisible(isVisible);
   };
 
   const subtotal = useMemo(() => {
     return cartItems.reduce((acc, curr) => acc + curr.price * curr.quantity, 0);
   }, [cartItems]);
+
+  useEffect(() => {
+    if (!cartItems.length) {
+      setCartIsVisible(false);
+    }
+  }, [cartItems, setCartIsVisible]);
 
   return {
     cartItems,

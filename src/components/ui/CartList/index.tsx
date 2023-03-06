@@ -3,13 +3,14 @@ import useCart from 'hooks/useCart';
 import CartListItem from 'components/ui/CartListItem';
 import { currencyFormatter } from 'utils/currencyFormatter';
 import * as S from './styles';
+import Button from 'components/generics/Button';
 
 const CartList = () => {
-  const { cartItems, subtotal } = useCart();
+  const { cartItems, subtotal, clearCart } = useCart();
 
   return (
     <S.Wrapper>
-      {!!cartItems.length ? (
+      {!!cartItems.length && (
         <>
           <S.ListWrapper>
             {cartItems.map((item) => (
@@ -35,11 +36,14 @@ const CartList = () => {
           </S.OrderInfoWrapper>
 
           <S.ActionWrapper>
-            <button onClick={() => console.log('checkout')}>CHECKOUT</button>
+            <Button fullwidth btntype='primary' onClick={() => console.log('checkout')}>
+              CHECKOUT
+            </Button>
+            <Button fullwidth onClick={clearCart}>
+              CLEAR
+            </Button>
           </S.ActionWrapper>
         </>
-      ) : (
-        <span>Cart is empty</span>
       )}
     </S.Wrapper>
   );

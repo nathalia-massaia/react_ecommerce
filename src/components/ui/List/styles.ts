@@ -21,6 +21,7 @@ export const ListWrapper = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 
   a {
     text-decoration: none;

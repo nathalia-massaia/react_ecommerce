@@ -2,37 +2,57 @@ import styled, { css } from 'styled-components';
 import { darken } from 'polished';
 
 export const DescriptionWrapper = styled.div`
-  color: #b5b5b5;
-  padding: 1rem;
-  font-size: 14px;
-  font-weight: initial;
-  text-transform: uppercase;
-  transition: all 0.2s ease 0s;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  min-height: 110px;
-  gap: 0.4rem;
+  ${({ theme }) => css`
+    color: #b5b5b5;
+    padding: ${theme.spacings.xxsmall};
+    font-weight: initial;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
 
-  p {
-    word-break: break-word;
-    line-height: 1.2;
-  }
+    p {
+      word-break: break-word;
+      line-height: 1.2;
+    }
+  `}
+`;
+
+export const ProductTitle = styled.div`
+  ${({ theme }) => css`
+    color: ${theme.colors.darkgray};
+    font-weight: ${theme.font.bold};
+    display: flex;
+    justify-content: space-between;
+  `}
 `;
 
 export const PriceContent = styled.div`
-  color: #333;
+  ${({ theme }) => css`
+    color: ${theme.colors.darkgray};
+    text-align: right;
+    font-weight: ${theme.font.bold};
+    padding-top: ${theme.spacings.xsmall};
+    font-size: ${theme.font.sizes.medium};
+  `}
 `;
 
-export const DescriptionContent = styled.div``;
+export const DescriptionContent = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const ProductInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 export const ImageWrapper = styled.div`
   ${({ theme }) => css`
     width: 100%;
-    height: 300px;
+    height: 25rem;
     position: relative;
     overflow: hidden;
-    border-radius: ${theme.border.radius.rounded};
-    border-radius: ${theme.border.radius.rounded};
+    border-top-left-radius: ${theme.border.radius.rounded};
+    border-top-right-radius: ${theme.border.radius.rounded};
 
     img {
       transition: all 0.2s ease-in-out;
@@ -98,10 +118,6 @@ export const Wrapper = styled.div`
         & ${PriceContent} {
           color: white;
         }
-      }
-
-      button {
-        background-color: ${darken(0.1, theme.colors.primary)};
       }
     }
   `}

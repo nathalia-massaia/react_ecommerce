@@ -1,4 +1,3 @@
-import { darken } from 'polished';
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -7,14 +6,14 @@ export const Wrapper = styled.div`
     min-width: 40rem;
     margin-top: ${theme.spacings.xxsmall};
     border-radius: ${theme.border.radius.rounded};
-    max-height: 50rem;
+    max-height: 55rem;
+    min-height: 10rem;
     padding: ${theme.spacings.xsmall};
     display: flex;
     flex-direction: column;
     gap: ${theme.spacings.small};
     border: 0.1rem solid ${theme.colors.lightgray};
-    box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.1);
-
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
   `}
 `;
 
@@ -42,22 +41,8 @@ export const OrderInfo = styled.div`
 
 export const ActionWrapper = styled.div`
   ${({ theme }) => css`
-    > button {
-      background-color: ${theme.colors.primary};
-      border: 0;
-      outline: none;
-      box-shadow: none;
-      padding: ${theme.spacings.xsmall};
-      color: ${theme.colors.white};
-      width: 100%;
-      cursor: pointer;
-      border-radius: ${theme.border.radius.rounded};
-      font-weight: ${theme.font.bold};
-      transition: ${theme.transition.default};
-
-      &:hover {
-        background-color: ${darken(0.1, theme.colors.primary)};
-      }
-    }
+    display: flex;
+    flex-direction: column;
+    gap: ${theme.spacings.xxsmall};
   `}
 `;
