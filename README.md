@@ -1,3 +1,18 @@
+## :computer: About
+---
+### :memo: **Front-End Roadmap**
+
+<details>
+	
+<summary>Click to show</summary>
+	
+- [x] Create Front-End Project using ReactJS.
+- [x] inserted Plop for automatic component generation.
+- [x] Create structure Components (Header, Footer and Container).
+- [x] Create reusable generic Components.
+	
+</details>
+
 ---
 ### :triangular_ruler: **Status**
 
@@ -44,5 +59,5 @@ Made with ❤️ by Nathalia Massaia 👋🏽 Get in touch!
 
 ---
 
-Copyright © 2023 [Nathalia Massaia] (https://github.com/Nathalia-Massaia) <br/>
+Copyright © 2023 [Nathalia Massaia](https://github.com/Nathalia-Massaia) <br/>
 This project is licensed by [MIT](./LICENSE).
